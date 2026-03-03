@@ -1,0 +1,576 @@
+﻿./gradlew : WARNING: A restricted method in 
+java.lang.System has been called
+En línea: 1 Carácter: 1
++ ./gradlew assembleDebug > compile_err.txt 2>&1; 
+Get-Content compile_e ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (WARNING: A  
+   rest...has been called:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+WARNING: java.lang.System::load has been called by 
+net.rubygrapefruit.platform.internal.NativeLibraryLoader 
+in an unnamed module (file:/C:/Users/usuario/.gradle/wrap
+per/dists/gradle-8.11.1-bin/bpt9gzteqjrbo1mjrsomdt32c/gra
+dle-8.11.1/lib/native-platform-0.22-milestone-26.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid 
+a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future 
+release unless native access is enabled
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+
+> Task :app:compileDebugJavaWithJavac FAILED
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:48: error: cannot 
+find symbol
+        setContentView(R.layout.activity_ficha_pajaro);
+                               ^
+  symbol:   variable activity_ficha_pajaro
+  location: class layout
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:52: error: cannot 
+find symbol
+        nombre = findViewById(R.id.tvNombre);
+                                  ^
+  symbol:   variable tvNombre
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:53: error: cannot 
+find symbol
+        nombreC = findViewById(R.id.tvNombreC);
+                                   ^
+  symbol:   variable tvNombreC
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:54: error: cannot 
+find symbol
+        desc = findViewById(R.id.tvDescripcion);
+                                ^
+  symbol:   variable tvDescripcion
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:55: error: cannot 
+find symbol
+        imagen = findViewById(R.id.imgPajaro);
+                                  ^
+  symbol:   variable imgPajaro
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:56: error: cannot 
+find symbol
+        orden = findViewById(R.id.tvOrden);
+                                 ^
+  symbol:   variable tvOrden
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:57: error: cannot 
+find symbol
+        familia = findViewById(R.id.tvFamilia);
+                                   ^
+  symbol:   variable tvFamilia
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:58: error: cannot 
+find symbol
+        longitud = findViewById(R.id.tvLongitud);
+                                    ^
+  symbol:   variable tvLongitud
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:59: error: cannot 
+find symbol
+        envergadura = findViewById(R.id.tvEnvergadura);
+                                       ^
+  symbol:   variable tvEnvergadura
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:60: error: cannot 
+find symbol
+        identificacion = 
+findViewById(R.id.tvIdentificacion);
+                                          ^
+  symbol:   variable tvIdentificacion
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:61: error: cannot 
+find symbol
+        canto = findViewById(R.id.tvCanto);
+                                 ^
+  symbol:   variable tvCanto
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:62: error: cannot 
+find symbol
+        habitat = findViewById(R.id.tvHabitat);
+                                   ^
+  symbol:   variable tvHabitat
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:63: error: cannot 
+find symbol
+        alimentacion = findViewById(R.id.tvAlimentacion);
+                                        ^
+  symbol:   variable tvAlimentacion
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:64: error: cannot 
+find symbol
+        btnPlayCanto = findViewById(R.id.btnPlayCanto);
+                                        ^
+  symbol:   variable btnPlayCanto
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:116: error: cannot 
+find symbol
+            View btnGaleria = 
+findViewById(R.id.btnGaleria);
+                                               ^
+  symbol:   variable btnGaleria
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FullscreenImageActivity.java:21: 
+error: cannot find symbol
+        
+setContentView(R.layout.activity_fullscreen_image);
+                               ^
+  symbol:   variable activity_fullscreen_image
+  location: class layout
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FullscreenImageActivity.java:24: 
+error: cannot find symbol
+        ImageView imgFullscreen = 
+findViewById(R.id.imgFullscreen);
+                                                   ^
+  symbol:   variable imgFullscreen
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FullscreenImageActivity.java:25: 
+error: cannot find symbol
+        ImageButton btnCerrar = 
+findViewById(R.id.btnCerrar);
+                                                 ^
+  symbol:   variable btnCerrar
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\Galeria.java:45: error: cannot find 
+symbol
+        setContentView(R.layout.activity_galeria);
+                               ^
+  symbol:   variable activity_galeria
+  location: class layout
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\Galeria.java:49: error: cannot find 
+symbol
+        recyclerGaleria = 
+findViewById(R.id.recyclerGaleria);
+                                           ^
+  symbol:   variable recyclerGaleria
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\Galeria.java:50: error: cannot find 
+symbol
+        progressBar = findViewById(R.id.progressBar);
+                                       ^
+  symbol:   variable progressBar
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\Galeria.java:51: error: cannot find 
+symbol
+        tvSinFotos = findViewById(R.id.tvSinFotos);
+                                      ^
+  symbol:   variable tvSinFotos
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\Galeria.java:52: error: cannot find 
+symbol
+        tvNombrePajaro = 
+findViewById(R.id.tvNombrePajaro);
+                                          ^
+  symbol:   variable tvNombrePajaro
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\GaleriaAdapter.java:46: error: 
+cannot find symbol
+        View view = LayoutInflater.from(context).inflate(
+R.layout.item_galeria, parent, false);
+                                                         
+        ^
+  symbol:   variable item_galeria
+  location: class layout
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\GaleriaAdapter.java:86: error: 
+cannot find symbol
+            imgGaleria = 
+itemView.findViewById(R.id.imgGaleria);
+                                                   ^
+  symbol:   variable imgGaleria
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\ListaPajaros.java:37: error: cannot 
+find symbol
+        setContentView(R.layout.activity_lista_pajaros);
+                               ^
+  symbol:   variable activity_lista_pajaros
+  location: class layout
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\ListaPajaros.java:39: error: cannot 
+find symbol
+        listaPajaros = findViewById(R.id.listaPajaros);
+                                        ^
+  symbol:   variable listaPajaros
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\PajaroAdapter.java:36: error: 
+cannot find symbol
+            convertView = LayoutInflater.from(context).in
+flate(R.layout.item_pajaro, parent, false);
+                                                         
+              ^
+  symbol:   variable item_pajaro
+  location: class layout
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\PajaroAdapter.java:43: error: 
+cannot find symbol
+        ImageView imgPajaro = 
+convertView.findViewById(R.id.imgPajaro);
+                                                         
+  ^
+  symbol:   variable imgPajaro
+  location: class id
+C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\PajaroAdapter.java:44: error: 
+cannot find symbol
+        TextView tvNombre = 
+convertView.findViewById(R.id.nombrePajaro);
+                                                         
+^
+  symbol:   variable nombrePajaro
+  location: class id
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+30 errors
+[Incubating] Problems report is available at: file:///C:/Users/usuario/Downloads/PROYECTO%20FINAK/Copia%20PIOINTO/PIOINTO%20ParteGermanSergio/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task 
+':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler output below.
+  Note: Recompile with -Xlint:deprecation for details.
+  Note: Some input files use or override a deprecated 
+API.
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:48: error: cannot 
+find symbol
+          setContentView(R.layout.activity_ficha_pajaro);
+                                 ^
+    symbol:   variable activity_ficha_pajaro
+    location: class layout
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:52: error: cannot 
+find symbol
+          nombre = findViewById(R.id.tvNombre);
+                                    ^
+    symbol:   variable tvNombre
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:53: error: cannot 
+find symbol
+          nombreC = findViewById(R.id.tvNombreC);
+                                     ^
+    symbol:   variable tvNombreC
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:54: error: cannot 
+find symbol
+          desc = findViewById(R.id.tvDescripcion);
+                                  ^
+    symbol:   variable tvDescripcion
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:55: error: cannot 
+find symbol
+          imagen = findViewById(R.id.imgPajaro);
+                                    ^
+    symbol:   variable imgPajaro
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:56: error: cannot 
+find symbol
+          orden = findViewById(R.id.tvOrden);
+                                   ^
+    symbol:   variable tvOrden
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:57: error: cannot 
+find symbol
+          familia = findViewById(R.id.tvFamilia);
+                                     ^
+    symbol:   variable tvFamilia
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:58: error: cannot 
+find symbol
+          longitud = findViewById(R.id.tvLongitud);
+                                      ^
+    symbol:   variable tvLongitud
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:59: error: cannot 
+find symbol
+          envergadura = findViewById(R.id.tvEnvergadura);
+                                         ^
+    symbol:   variable tvEnvergadura
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:60: error: cannot 
+find symbol
+          identificacion = 
+findViewById(R.id.tvIdentificacion);
+                                            ^
+    symbol:   variable tvIdentificacion
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:61: error: cannot 
+find symbol
+          canto = findViewById(R.id.tvCanto);
+                                   ^
+    symbol:   variable tvCanto
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:62: error: cannot 
+find symbol
+          habitat = findViewById(R.id.tvHabitat);
+                                     ^
+    symbol:   variable tvHabitat
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:63: error: cannot 
+find symbol
+          alimentacion = 
+findViewById(R.id.tvAlimentacion);
+                                          ^
+    symbol:   variable tvAlimentacion
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:64: error: cannot 
+find symbol
+          btnPlayCanto = findViewById(R.id.btnPlayCanto);
+                                          ^
+    symbol:   variable btnPlayCanto
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FichaPajaro.java:116: error: cannot 
+find symbol
+              View btnGaleria = 
+findViewById(R.id.btnGaleria);
+                                                 ^
+    symbol:   variable btnGaleria
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FullscreenImageActivity.java:21: 
+error: cannot find symbol
+          
+setContentView(R.layout.activity_fullscreen_image);
+                                 ^
+    symbol:   variable activity_fullscreen_image
+    location: class layout
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FullscreenImageActivity.java:24: 
+error: cannot find symbol
+          ImageView imgFullscreen = 
+findViewById(R.id.imgFullscreen);
+                                                     ^
+    symbol:   variable imgFullscreen
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\FullscreenImageActivity.java:25: 
+error: cannot find symbol
+          ImageButton btnCerrar = 
+findViewById(R.id.btnCerrar);
+                                                   ^
+    symbol:   variable btnCerrar
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\Galeria.java:45: error: cannot find 
+symbol
+          setContentView(R.layout.activity_galeria);
+                                 ^
+    symbol:   variable activity_galeria
+    location: class layout
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\Galeria.java:49: error: cannot find 
+symbol
+          recyclerGaleria = 
+findViewById(R.id.recyclerGaleria);
+                                             ^
+    symbol:   variable recyclerGaleria
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\Galeria.java:50: error: cannot find 
+symbol
+          progressBar = findViewById(R.id.progressBar);
+                                         ^
+    symbol:   variable progressBar
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\Galeria.java:51: error: cannot find 
+symbol
+          tvSinFotos = findViewById(R.id.tvSinFotos);
+                                        ^
+    symbol:   variable tvSinFotos
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\Galeria.java:52: error: cannot find 
+symbol
+          tvNombrePajaro = 
+findViewById(R.id.tvNombrePajaro);
+                                            ^
+    symbol:   variable tvNombrePajaro
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\GaleriaAdapter.java:46: error: 
+cannot find symbol
+          View view = LayoutInflater.from(context).inflat
+e(R.layout.item_galeria, parent, false);
+                                                         
+          ^
+    symbol:   variable item_galeria
+    location: class layout
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\GaleriaAdapter.java:86: error: 
+cannot find symbol
+              imgGaleria = 
+itemView.findViewById(R.id.imgGaleria);
+                                                     ^
+    symbol:   variable imgGaleria
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\ListaPajaros.java:37: error: cannot 
+find symbol
+          
+setContentView(R.layout.activity_lista_pajaros);
+                                 ^
+    symbol:   variable activity_lista_pajaros
+    location: class layout
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\ListaPajaros.java:39: error: cannot 
+find symbol
+          listaPajaros = findViewById(R.id.listaPajaros);
+                                          ^
+    symbol:   variable listaPajaros
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\PajaroAdapter.java:36: error: 
+cannot find symbol
+              convertView = LayoutInflater.from(context).
+inflate(R.layout.item_pajaro, parent, false);
+                                                         
+                ^
+    symbol:   variable item_pajaro
+    location: class layout
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\PajaroAdapter.java:43: error: 
+cannot find symbol
+          ImageView imgPajaro = 
+convertView.findViewById(R.id.imgPajaro);
+                                                         
+    ^
+    symbol:   variable imgPajaro
+    location: class id
+  C:\Users\usuario\Downloads\PROYECTO FINAK\Copia 
+PIOINTO\PIOINTO ParteGermanSergio\app\src\main\java\com\e
+xample\proyectofinal\PajaroAdapter.java:44: error: 
+cannot find symbol
+          TextView tvNombre = 
+convertView.findViewById(R.id.nombrePajaro);
+                                                         
+  ^
+    symbol:   variable nombrePajaro
+    location: class id
+  30 errors
+
+* Try:
+> Check your code and dependencies to fix the 
+compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 1s
+15 actionable tasks: 1 executed, 14 up-to-date

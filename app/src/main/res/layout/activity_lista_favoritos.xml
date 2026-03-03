@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".ListaFavoritos">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarFavoritos"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="6dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Mis Favoritos"
+        app:titleTextColor="@color/white"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Buscador y Filtro Favoritos -->
+    <LinearLayout
+        android:id="@+id/llBuscadorFavoritos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarFavoritos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/colorCardBackground"
+        android:elevation="4dp"
+        android:gravity="center_vertical">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/svBuscarFavoritos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:queryHint="@string/buscar_pajaro"
+            app:iconifiedByDefault="false"
+            android:background="@drawable/input_round"
+            app:queryBackground="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/btnFiltrosFavoritos"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:src="@android:drawable/ic_menu_sort_by_size"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Filtros"
+            app:tint="@color/colorAccent" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridFavoritos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:numColumns="2"
+        android:verticalSpacing="2dp"
+        android:horizontalSpacing="2dp"
+        android:padding="6dp"
+        android:clipToPadding="false"
+        android:scrollbarStyle="outsideOverlay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llBuscadorFavoritos" />
+</androidx.constraintlayout.widget.ConstraintLayout>

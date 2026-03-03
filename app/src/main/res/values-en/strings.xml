@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PIOINTO</string>
+    
+    <!-- Menu -->
+    <string name="menu_inicio">Home</string>
+    <string name="menu_pajaros">Birds</string>
+    <string name="menu_ajustes">Settings</string>
+    <string name="menu_ayuda">Help</string>
+    <string name="menu_chat_ia">AI Chat</string>
+    <string name="menu_info">App Information</string>
+    <string name="menu_agradecimientos">Acknowledgements</string>
+    <string name="menu_anadir">Add Birds</string>
+    <string name="menu_favoritos">Favorite Birds</string>
+    <string name="salir">Exit</string>
+    <!-- Drawer Navigation -->
+    <string name="navigation_drawer_open">Navigation drawer open</string>
+    <string name="navigation_drawer_close">Navigation drawer closed</string>
+
+    <!-- MainActivity -->
+    <string name="main_guia_aves">Bird Guide</string>
+    <string name="main_visualiza_pajaros">View the birds of Pinto</string>
+    <string name="main_anade_ave">Add a bird</string>
+    <string name="main_introduce_ave">Introduce a bird to the collection</string>
+    <string name="main_title_guia">Pinto Bird Guide</string>
+    <string name="main_subtitle_hacer">What do you want to do today?</string>
+    <string name="main_title_carrusel">Photo carousel</string>
+    <string name="main_subtitle_carrusel">Which bird do you like the most?</string>
+
+    <!-- InformacionActivity -->
+    <string name="info_titulo">ABOUT THE APP</string>
+    <string name="info_guia_aves_titulo">Bird Guide</string>
+    <string name="info_guia_aves_desc">This application is a complete tool for ornithology lovers. It allows you to register and explore the wonderful world of birds interactively.</string>
+    <string name="info_que_hacer_titulo">What can you do?</string>
+    <string name="info_que_hacer_desc">• <b>Add new birds:</b> You can contribute by logging your own sightings.\n• <b>Edit Records:</b> Modify the details of any bird.\n• <b>Detailed Guide:</b> Check characteristics and audios of different birds.\n• <b>Mystery:</b> Solve our identification Quiz.\n• <b>Favorites:</b> Save the birds you like the most to keep them handy.\n• <b>Advanced Filters:</b> Find birds using the search bar or filtering by their size.</string>
+    <string name="info_equipo_titulo">Development Team</string>
+    <string name="info_equipo_desc">Created by:\n• Carla Arribas\n• German Narciso\n• Sergio López</string>
+    <string name="info_entendido">UNDERSTOOD</string>
+
+    <!-- LoginActivity -->
+    <string name="login_iniciar_sesion">LOG IN</string>
+    <string name="login_entrar">ENTER</string>
+    <string name="login_hint_correo">Email address</string>
+    <string name="login_hint_password">Password</string>
+    <string name="login_no_cuenta">Don\'t have an account? Sign up</string>
+    <string name="login_olvide_password">I forgot my password</string>
+
+    <!-- RegistroActivity -->
+    <string name="registro_nueva_cuenta">NEW ACCOUNT</string>
+    <string name="registro_hint_email">User email</string>
+    <string name="registro_hint_password">Password (6+ characters)</string>
+    <string name="registro_crear_cuenta">CREATE ACCOUNT</string>
+
+    <!-- RecuperarPasswordActivity -->
+    <string name="recuperar_acceso">RECOVER ACCESS</string>
+    <string name="recuperar_desc">We will send you an email to reset your password.</string>
+    <string name="recuperar_hint_correo">Your email address</string>
+    <string name="recuperar_enviar">SEND EMAIL</string>
+
+    <!-- CambiarPasswordActivity -->
+    <string name="cambiar_nueva_password">NEW PASSWORD</string>
+    <string name="cambiar_hint_nueva_clave">Type the new password</string>
+    <string name="cambiar_actualizar">UPDATE</string>
+
+    <!-- AjustesActivity -->
+    <string name="ajustes_titulo">Settings</string>
+    <string name="seccion_cuenta">Account</string>
+    <string name="btn_cambiar_pass">Change Password</string>
+    <string name="btn_borrar_cuenta">Delete Account</string>
+    <string name="seccion_preferencias">Preferences</string>
+    <string name="label_idioma">Language (Spanish/English)</string>
+    <string name="label_notificaciones">Notify new birds</string>
+    <string name="btn_cerrar_sesion">LOG OUT</string>
+    <string name="ajustes_volver">Back</string>
+
+    <!-- AgradecimientosActivity -->
+    <string name="agradecimientos_titulo">ACKNOWLEDGMENTS</string>
+    <string name="agradecimientos_profesores">To our Teachers</string>
+    <string name="agradecimientos_nombres_profesores">• Angel Martín Rodriguez\n• Pedro Jose Salazar Román\n• Daniel Plaza Trujillo\n• Rosario Santos Barradas\n• M.Angeles Ravelo Ferrer\n• Alberto Millan Alhambra</string>
+    <string name="agradecimientos_instituto">To our High School</string>
+    <string name="agradecimientos_desc_instituto">IES Calderón de la Barca (Pinto)\nFor giving us the tools and space to grow professionally.</string>
+    <string name="agradecimientos_familias">Families and Peers</string>
+    <string name="agradecimientos_desc_familias">To our families for their unconditional support and to our peers for sharing this journey and making learning more enjoyable.</string>
+    <string name="agradecimientos_volver">BACK</string>
+
+    <!-- ChatIA -->
+    <string name="chat_ia_hint_escribe">Write your question about birds...</string>
+    <!-- Bird App Screens -->
+    <string name="lista_pajaros_titulo">Bird Guide</string>
+    <string name="ficha_nombre_pajaro">Bird Name</string>
+    <string name="ficha_nombre_cientifico">Scientific Name</string>
+    <string name="ficha_orden">Order</string>
+    <string name="ficha_familia">Family</string>
+    <string name="ficha_longitud">Length</string>
+    <string name="ficha_envergadura">Wingspan</string>
+    <string name="ficha_descripcion">Description</string>
+    <string name="ficha_identificacion">Identification</string>
+    <string name="ficha_identificacion_desc">Bird identification</string>
+    <string name="ficha_canto">Song</string>
+    <string name="ficha_canto_desc">Bird song</string>
+    <string name="ficha_hábitat">Habitat</string>
+    <string name="ficha_habitat_desc">Bird habitat</string>
+    <string name="ficha_alimentacion">Diet</string>
+    <string name="ficha_alimentacion_desc">Bird diet</string>
+    <string name="galeria_titulo">Gallery</string>
+    <string name="galeria_sin_fotos">No photos found</string>
+
+    <string name="btn_reproducir">▶  Play song</string>
+    <string name="btn_detener">⏹  Stop</string>
+    <string name="btn_cargando">⏳  Loading...</string>
+    <string name="error_reproducir_audio">Error playing audio</string>
+    <string name="error_cargar_audio">Error loading audio</string>
+
+    <!-- AyudaActivity -->
+    <string name="ayuda_titulo">HELP AND USER MANUAL</string>
+    
+    <string name="ayuda_nav_titulo">1. General Navigation</string>
+    <string name="ayuda_nav_desc">Swipe from the left edge of the screen to the right, or tap the menu icon (☰) in the top left corner, to open the Main Menu. From there you can access all sections of the application.</string>
+    
+    <string name="ayuda_lista_titulo">2. Bird Guide</string>
+    <string name="ayuda_lista_desc">In the \"Bird Guide\" you will find a complete catalog of birds. Select any bird to see a detailed technical sheet that includes its scientific name, family, and high definition photographs obtained directly from Wikipedia.</string>
+    
+    <string name="ayuda_ia_titulo">3. Smart Chat (Gemini AI)</string>
+    <string name="ayuda_ia_desc">Do you have questions about ornithology or a particular species? Access the \"Chat with AI\" screen to chat with our artificial intelligence, powered by Google Gemini, ready to answer your questions instantly.</string>
+    
+    <string name="ayuda_anadir_titulo">4. Add Birds</string>
+    <string name="ayuda_anadir_desc">From the main screen you can log your own sightings in the Pinto database. Write the bird\'s name, assign its species, detail its measurements and provide a description. You can save the changes and the bird will be automatically added to the Guide.</string>
+    
+    <string name="ayuda_favoritos_titulo">5. Favorite Birds</string>
+    <string name="ayuda_favoritos_desc">Inside any bird\'s profile, you will see a star icon. If you tap it, you will save that species to your personal list. You can quickly access all your saved species from the \"Favorites\" screen in the main menu.</string>
+    
+    <string name="ayuda_buscador_titulo">6. Search and Advanced Filters</string>
+    <string name="ayuda_buscador_desc">In both the General Guide and your Favorites, you have a search bar to instantly filter the list by the bird\'s name. Additionally, tapping the funnel icon lets you cross-reference taxonomic filters (Family and Order) and even find birds that do not exceed specific measurements (Length and Wingspan).</string>
+
+    <string name="ayuda_ajustes_titulo">7. App Settings</string>
+    <string name="ayuda_ajustes_desc">In the \"Settings\" section you can customize how the application works, such as changing the language between Spanish and English with immediate application on all screens. You can also manage your session here.</string>
+
+    <string name="favoritos">Favorites</string>
+    <string name="lista_con_tus_aves_preferidas">List with your favorite birds</string>
+
+    <!-- (Modificado Final) Strings Filtro y Buscador -->
+    <string name="buscar_pajaro">Search bird...</string>
+    <string name="filtros_avanzados">Advanced Filters</string>
+    <string name="filtro_familia">Family:</string>
+    <string name="filtro_orden">Order:</string>
+    <string name="filtro_longitud">Max Length (cm):</string>
+    <string name="filtro_longitud_hint">e.g. 40</string>
+    <string name="filtro_envergadura">Max Wingspan (cm):</string>
+    <string name="filtro_envergadura_hint">e.g. 120</string>
+    <string name="filtro_limpiar">Clear</string>
+    <string name="filtro_aplicar">Apply</string>
+    <!-- Quiz Strings -->
+    <string name="quiz_titulo">Bird Quiz</string>
+    <string name="quiz_desc_main">Test your knowledge about the birds of Pinto</string>
+    <string name="quiz_pregunta_progreso">Question %1$d / %2$d</string>
+    <string name="quiz_completado">Completed</string>
+    <string name="quiz_msg_perfecto">Perfect! You are a Pinto birds expert 🏆</string>
+    <string name="quiz_msg_excelente">Excellent! You know the local birds very well 🌟</string>
+    <string name="quiz_msg_bueno">Good job! Keep learning about Pinto birds 👍</string>
+    <string name="quiz_msg_regular">Not bad, but you can improve. Try again! 📖</string>
+    <string name="quiz_msg_mal">Cheer up! Explore the guide and try again 🔍</string>
+    <string name="quiz_volver_inicio">Back to home</string>
+    <string name="quiz_completado_titulo">Quiz completed!</string>
+    
+    <string name="quiz_q1_q">What is the scientific name of the Great Bustard?</string>
+    <string-array name="quiz_q1_opts"><item>Otis tarda</item><item>Tetrax tetrax</item><item>Ciconia ciconia</item><item>Alectoris rufa</item></string-array>
+    
+    <string name="quiz_q2_q">The Great Bustard is considered one of the heaviest flying birds in the world. In what type of habitat is it mainly found?</string>
+    <string-array name="quiz_q2_opts"><item>Dense forests</item><item>Cereal steppes</item><item>Coastal areas</item><item>High mountains</item></string-array>
+    
+    <string name="quiz_q3_q">To which order does the Great Bustard belong?</string>
+    <string-array name="quiz_q3_opts"><item>Passeriformes</item><item>Otidiformes</item><item>Ciconiiformes</item><item>Falconiformes</item></string-array>
+    
+    <string name="quiz_q4_q">What is the scientific name of the Red-legged Partridge?</string>
+    <string-array name="quiz_q4_opts"><item>Perdix perdix</item><item>Alectoris rufa</item><item>Coturnix coturnix</item><item>Phasianus colchicus</item></string-array>
+    
+    <string name="quiz_q5_q">What does the Red-legged Partridge mainly feed on?</string>
+    <string-array name="quiz_q5_opts"><item>Small fish</item><item>Insects and small mammals</item><item>Seeds, shoots and small invertebrates</item><item>Exclusively fruits</item></string-array>
+    
+    <string name="quiz_q6_q">What is the scientific name of the White Stork?</string>
+    <string-array name="quiz_q6_opts"><item>Ciconia nigra</item><item>Ciconia ciconia</item><item>Mycteria ibis</item><item>Ardea cinerea</item></string-array>
+    
+    <string name="quiz_q7_q">The White Stork is considered the most popular animal of Pinto\'s wildlife. Where does it usually build its nest?</string>
+    <string-array name="quiz_q7_opts"><item>In underground burrows</item><item>On roofs, towers and high poles</item><item>In bushes at ground level</item><item>On coastal cliffs</item></string-array>
+    
+    <string name="quiz_q8_q">To which family does the White Stork belong?</string>
+    <string-array name="quiz_q8_opts"><item>Ardeidae</item><item>Threskiornithidae</item><item>Ciconiidae</item><item>Accipitridae</item></string-array>
+    
+    <string name="quiz_q9_q">What is the scientific name of the Little Bustard?</string>
+    <string-array name="quiz_q9_opts"><item>Otis tarda</item><item>Tetrax tetrax</item><item>Burhinus oedicnemus</item><item>Pterocles orientalis</item></string-array>
+    
+    <string name="quiz_q10_q">The Little Bustard is a typical bird of the Pinto steppes. What characteristic does its flight have?</string>
+    <string-array name="quiz_q10_opts"><item>Glides for hours without flapping its wings</item><item>Produces a characteristic whistle with its wings when flying</item><item>Only flies at night</item><item>Flies exclusively in V formation</item></string-array>
+    
+    <string name="quiz_q11_q">What is the scientific name of the Great Spotted Cuckoo?</string>
+    <string-array name="quiz_q11_opts"><item>Cuculus canorus</item><item>Clamator glandarius</item><item>Upupa epops</item><item>Merops apiaster</item></string-array>
+    
+    <string name="quiz_q12_q">The Great Spotted Cuckoo has a very peculiar reproductive behavior. What is it?</string>
+    <string-array name="quiz_q12_opts"><item>Builds highly elaborate hanging nests</item><item>It is a brood parasite: it lays its eggs in the nests of other birds</item><item>Incubates the eggs in the hot sand</item><item>Both parents take turns incubating for 24 hours</item></string-array>
+    
+    <string name="quiz_q13_q">What is the scientific name of the European Goldfinch?</string>
+    <string-array name="quiz_q13_opts"><item>Serinus serinus</item><item>Carduelis carduelis</item><item>Fringilla coelebs</item><item>Chloris chloris</item></string-array>
+    
+    <string name="quiz_q14_q">Which plant does the European Goldfinch show a special preference for feeding on?</string>
+    <string-array name="quiz_q14_opts"><item>Oak</item><item>Thistle</item><item>Holm oak</item><item>Olive tree</item></string-array>
+    
+    <string name="quiz_q15_q">What characteristic color does the European Goldfinch\'s face have?</string>
+    <string-array name="quiz_q15_opts"><item>Deep blue</item><item>Red, white and black</item><item>Uniform yellow</item><item>Emerald green</item></string-array>
+    
+    <string name="quiz_q16_q">What is the scientific name of the Red Kite?</string>
+    <string-array name="quiz_q16_opts"><item>Milvus migrans</item><item>Milvus milvus</item><item>Aquila chrysaetos</item><item>Circus aeruginosus</item></string-array>
+    
+    <string name="quiz_q17_q">What shape is the Red Kite\'s tail, which helps identify it in flight?</string>
+    <string-array name="quiz_q17_opts"><item>Rounded</item><item>Square</item><item>Forked</item><item>Pointed</item></string-array>
+    
+    <string name="quiz_q18_q">What is the scientific name of the Hen Harrier?</string>
+    <string-array name="quiz_q18_opts"><item>Circus pygargus</item><item>Circus aeruginosus</item><item>Circus cyaneus</item><item>Accipiter gentilis</item></string-array>
+    
+    <string name="quiz_q19_q">What physical feature easily distinguishes the Northern Lapwing?</string>
+    <string-array name="quiz_q19_opts"><item>A long curved bill</item><item>A crest or tuft on the head</item><item>Red webbed feet</item><item>Completely white plumage</item></string-array>
+    
+    <string name="quiz_q20_q">What is the scientific name of the Common Buzzard?</string>
+    <string-array name="quiz_q20_opts"><item>Buteo buteo</item><item>Falco peregrinus</item><item>Aquila pennata</item><item>Milvus migrans</item></string-array>
+    
+    <string name="quiz_q21_q">What does the Common Buzzard mainly feed on?</string>
+    <string-array name="quiz_q21_opts"><item>Fish and amphibians</item><item>Fruits and seeds</item><item>Small rodents</item><item>Aquatic insects</item></string-array>
+    
+    <string name="quiz_q22_q">What flight capability is typical of the Common Kestrel to locate its prey?</string>
+    <string-array name="quiz_q22_opts"><item>Flies in an upward spiral</item><item>Hovers in the air (stationary flight)</item><item>Flies low over water</item><item>Performs dives at over 300 km/h</item></string-array>
+    
+    <string name="quiz_q23_q">What is the scientific name of the Little Owl?</string>
+    <string-array name="quiz_q23_opts"><item>Strix aluco</item><item>Tyto alba</item><item>Athene noctua</item><item>Bubo bubo</item></string-array>
+    
+    <string name="quiz_q24_q">At what time of day is the Little Owl most active?</string>
+    <string-array name="quiz_q24_opts"><item>Exclusively at night</item><item>At dawn and dusk (crepuscular)</item><item>Only at noon</item><item>Only during storms</item></string-array>
+    
+    <string name="quiz_q25_q">What physical trait gives the Crested Lark its Spanish name (Cogujada)?</string>
+    <string-array name="quiz_q25_opts"><item>Its very long tail</item><item>Its pointed crest (cogujada)</item><item>Its curved beak</item><item>Its red legs</item></string-array>
+    
+    <string name="quiz_q26_q">What is the scientific name of the House Sparrow?</string>
+    <string-array name="quiz_q26_opts"><item>Passer montanus</item><item>Passer domesticus</item><item>Petronia petronia</item><item>Sturnus vulgaris</item></string-array>
+    
+    <string name="quiz_q27_q">What characteristic white mark does the Common Wood Pigeon have on its neck?</string>
+    <string-array name="quiz_q27_opts"><item>A vertical line</item><item>White patches on both sides of the neck</item><item>A complete white collar</item><item>It has no white marks</item></string-array>
+    <!-- Add / Edit Bird Strings -->
+    <string name="add_bird_title">New Sighting</string>
+    <string name="add_bird_basic_info">BASIC INFORMATION</string>
+    <string name="add_bird_hint_name">Common name (e.g. Sparrow)</string>
+    <string name="add_bird_hint_scientific">Scientific name</string>
+    <string name="add_bird_hint_order">Order</string>
+    <string name="add_bird_hint_family">Family</string>
+    <string name="add_bird_morphology">MORPHOLOGY AND DIMENSIONS</string>
+    <string name="add_bird_hint_length">Length</string>
+    <string name="add_bird_hint_wingspan">Wingspan</string>
+    <string name="add_bird_hint_identification">Identification keys...</string>
+    <string name="add_bird_habitat_ethology">HABITAT AND ETHOLOGY</string>
+    <string name="add_bird_hint_habitat">Natural habitat</string>
+    <string name="add_bird_hint_diet">Diet</string>
+    <string name="add_bird_general_desc">GENERAL DESCRIPTION</string>
+    <string name="add_bird_hint_details">Write the sighting details here...</string>
+    <string name="add_bird_btn_register">REGISTER SIGHTING</string>
+    
+    <string name="edit_bird_title">Edit Bird</string>
+    <string name="edit_bird_btn_save">SAVE CHANGES</string>
+    <!-- Chat IA Strings -->
+    <string name="chat_ia_bienvenida">Hello! I am PioInto\'s Artificial Intelligence, an expert in ornithology. How can I help you today?</string>
+    <string name="chat_ia_error_conexion">An error occurred: %s. Please try again soon.</string>
+    <string name="chat_ia_error_cuota">You have exceeded the API limits. Please wait one minute before asking another question.</string>
+</resources>

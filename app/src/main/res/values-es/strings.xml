@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PIOINTO</string>
+    
+    <!-- Menu -->
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_pajaros">Pajaros</string>
+    <string name="menu_ajustes">Ajustes</string>
+    <string name="menu_ayuda">Ayuda</string>
+    <string name="menu_chat_ia">Chat IA</string>
+    <string name="menu_info">Información sobre la app</string>
+    <string name="menu_agradecimientos">Agradecimientos</string>
+
+    <!-- Drawer Navigation -->
+    <string name="navigation_drawer_open">Barra de navegación abierta</string>
+    <string name="navigation_drawer_close">Barra de navegación cerrada</string>
+
+    <!-- MainActivity -->
+    <string name="main_guia_aves">Guia aves</string>
+    <string name="main_visualiza_pajaros">Visualiza los pajaros de pinto</string>
+    <string name="main_anade_ave">Añade un ave</string>
+    <string name="main_introduce_ave">Introduce un ave a la colección</string>
+    <string name="main_title_guia">Guía de Pinto</string>
+    <string name="main_subtitle_hacer">¿Qué pajaro quieres ver hoy?</string>
+    <string name="main_subtitle_carrusel">¿Qué pajaro te gusta más?</string>
+    <string name="main_title_carrusel">Carrusel de Fotos</string>
+
+
+
+    <!-- LoginActivity -->
+    <string name="login_iniciar_sesion">INICIAR SESIÓN</string>
+    <string name="login_entrar">ENTRAR</string>
+    <string name="login_hint_correo">Correo electrónico</string>
+    <string name="login_hint_password">Contraseña</string>
+    <string name="login_no_cuenta">¿No tienes cuenta? Regístrate</string>
+    <string name="login_olvide_password">Olvidé mi contraseña</string>
+
+    <!-- RegistroActivity -->
+    <string name="registro_nueva_cuenta">NUEVA CUENTA</string>
+    <string name="registro_hint_email">Email de usuario</string>
+    <string name="registro_hint_password">Contraseña (6+ caracteres)</string>
+    <string name="registro_crear_cuenta">CREAR CUENTA</string>
+
+    <!-- RecuperarPasswordActivity -->
+    <string name="recuperar_acceso">RECUPERAR ACCESO</string>
+    <string name="recuperar_desc">Te enviaremos un correo para restablecer tu clave.</string>
+    <string name="recuperar_hint_correo">Tu correo electrónico</string>
+    <string name="recuperar_enviar">ENVIAR CORREO</string>
+
+    <!-- CambiarPasswordActivity -->
+    <string name="cambiar_nueva_password">NUEVA CONTRASEÑA</string>
+    <string name="cambiar_hint_nueva_clave">Escribe la nueva clave</string>
+    <string name="cambiar_actualizar">ACTUALIZAR</string>
+
+    <!-- AjustesActivity -->
+    <string name="ajustes_titulo">Ajustes</string>
+    <string name="seccion_cuenta">Cuenta</string>
+    <string name="btn_cambiar_pass">Cambiar Contraseña</string>
+    <string name="btn_borrar_cuenta">Borrar Cuenta</string>
+    <string name="seccion_preferencias">Preferencias</string>
+    <string name="label_idioma">Idioma (Español/Inglés)</string>
+    <string name="label_notificaciones">Avisar nuevos pájaros</string>
+    <string name="btn_cerrar_sesion">CERRAR SESIÓN</string>
+    <string name="ajustes_volver">Volver</string>
+
+    <!-- AgradecimientosActivity -->
+    <string name="agradecimientos_titulo">AGRADECIMIENTOS</string>
+    <string name="agradecimientos_profesores">A nuestros Profesores</string>
+    <string name="agradecimientos_nombres_profesores">• Angel Martín Rodriguez\n• Pedro Jose Salazar Román\n• Daniel Plaza Trujillo\n• Rosario Santos Barradas\n• M.Angeles Ravelo Ferrer\n• Alberto Millan Alhambra</string>
+    <string name="agradecimientos_instituto">Al Instituto</string>
+    <string name="agradecimientos_desc_instituto">IES Calderón de la Barca (Pinto)\nPor brindarnos las herramientas y el espacio para crecer profesionalmente.</string>
+    <string name="agradecimientos_familias">Familias y Compañeros</string>
+    <string name="agradecimientos_desc_familias">A nuestras familias por el apoyo incondicional y a nuestros compañeros por compartir este camino y hacer el aprendizaje más ameno.</string>
+    <string name="agradecimientos_volver">VOLVER</string>
+
+    <!-- ChatIA -->
+    <string name="chat_ia_hint_escribe">Escribe tu duda sobre pájaros...</string>
+    <string name="chat_ia_bienvenida">¡Hola! Soy experto en aves. ¿Qué quieres saber sobre los pájaros de Pinto?</string>
+
+</resources>

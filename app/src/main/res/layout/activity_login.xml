@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:src="@drawable/iconociruclar"
+                android:layout_marginBottom="32dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/input_round"
+                android:padding="24dp"
+                android:elevation="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_iniciar_sesion"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="#333333"/>
+
+                <EditText
+                    android:id="@+id/etEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="@string/login_hint_correo"
+                    android:inputType="textEmailAddress"
+                    android:background="@drawable/input_round"
+                    android:paddingStart="20dp"
+                    android:layout_marginBottom="16dp"/>
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="@string/login_hint_password"
+                    android:inputType="textPassword"
+                    android:background="@drawable/input_round"
+                    android:paddingStart="20dp"
+                    android:layout_marginBottom="20dp"/>
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="@string/login_entrar"
+                    android:textStyle="bold"
+                    android:backgroundTint="#1976D2"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvRegistrarse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:shadowColor="#000000"
+                android:shadowRadius="2"
+                android:text="@string/login_no_cuenta"
+                android:textColor="#0226F0" />
+
+            <TextView
+                android:id="@+id/tvOlvidastePassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/login_olvide_password"
+                android:textColor="#0128FF" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

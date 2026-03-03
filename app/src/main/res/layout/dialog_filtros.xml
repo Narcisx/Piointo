@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/filtros_avanzados"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Filtro Familia -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/filtro_familia"
+        android:textColor="@color/colorTextPrimary"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <Spinner
+        android:id="@+id/spinFamilia"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/colorAccent" />
+
+    <!-- Filtro Orden -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/filtro_orden"
+        android:textColor="@color/colorTextPrimary"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <Spinner
+        android:id="@+id/spinOrden"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/colorAccent" />
+
+    <!-- Filtro Longitud Maxima -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/filtro_longitud"
+        android:textColor="@color/colorTextPrimary"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/etFiltroLongitud"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/filtro_longitud_hint"
+        android:background="@drawable/input_round"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Filtro Envergadura Maxima -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/filtro_envergadura"
+        android:textColor="@color/colorTextPrimary"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/etFiltroEnvergadura"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/filtro_envergadura_hint"
+        android:background="@drawable/input_round"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Botones de Acción -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnFiltroLimpiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filtro_limpiar"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnFiltroAplicar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filtro_aplicar"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

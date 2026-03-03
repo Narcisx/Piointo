@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- (modificado) Permisos de red copiados de la App de Pájaros -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/iconociruclar"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/iconociruclar"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProyectoFinal"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".ayuda"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecuperarPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AjustesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CambiarPasswordActivity"
+            android:exported="true">
+            <intent-filter android:label="Restablecer Contraseña">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="callback"
+                    android:scheme="com.example.proyectofinal" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AgradecimientosActivity" /> <!-- (modificado) Se añadieron las actividades del proyecto pantalla Inicio -->
+        <activity android:name=".ChatIA" />
+        <activity android:name=".prueba2" />
+        <activity android:name=".AnadirPajaroActivity" /> <!-- (Modificado Final) Añadido pantalla Añadir Pájaro -->
+        
+        <!-- (Modificado Final) Fase 2: Favoritos y Quiz -->
+        <activity android:name=".ListaFavoritos" />
+        <activity android:name=".QuizActivity" />
+        
+        <!-- (Modificado Final) Fase 3: Editar Pájaro -->
+        <activity android:name=".EditarPajaroActivity" />
+
+        <activity android:name=".InformacionActivity" /> <!-- (modificado) Actividades copiadas de la App de Pájaros -->
+        <activity
+            android:name=".ListaPajaros"
+            android:exported="false" />
+        <activity
+            android:name=".FichaPajaro"
+            android:exported="false" />
+        <activity
+            android:name=".Galeria"
+            android:exported="false" />
+        <activity
+            android:name=".FullscreenImageActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+    </application>
+
+</manifest>

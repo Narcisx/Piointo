@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_bird_title"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium"
+                android:shadowColor="#80000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="4"/>
+
+            <!-- Sección: Información Básica -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                android:layout_marginBottom="16dp"
+                xmlns:app="http://schemas.android.com/apk/res-auto">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/add_bird_basic_info"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="12dp"
+                        android:textColor="#666666"/>
+
+                    <EditText
+                        android:id="@+id/etNuevoNombre"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="@string/add_bird_hint_name"
+                        android:background="@drawable/input_round"
+                        android:paddingStart="15dp"
+                        android:layout_marginBottom="12dp"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:id="@+id/etNuevoCientifico"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="@string/add_bird_hint_scientific"
+                        android:background="@drawable/input_round"
+                        android:paddingStart="15dp"
+                        android:layout_marginBottom="12dp"
+                        android:textSize="14sp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/etNuevoOrden"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:hint="@string/add_bird_hint_order"
+                            android:background="@drawable/input_round"
+                            android:paddingStart="15dp"
+                            android:layout_marginEnd="6dp"
+                            android:textSize="14sp"/>
+
+                        <EditText
+                            android:id="@+id/etNuevaFamilia"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:hint="@string/add_bird_hint_family"
+                            android:background="@drawable/input_round"
+                            android:paddingStart="15dp"
+                            android:layout_marginStart="6dp"
+                            android:textSize="14sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Sección: Morfología -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                android:layout_marginBottom="16dp"
+                xmlns:app="http://schemas.android.com/apk/res-auto">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/add_bird_morphology"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="12dp"
+                        android:textColor="#666666"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="12dp">
+
+                        <EditText
+                            android:id="@+id/etNuevaLongitud"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:hint="@string/add_bird_hint_length"
+                            android:background="@drawable/input_round"
+                            android:paddingStart="15dp"
+                            android:layout_marginEnd="6dp"
+                            android:textSize="14sp"/>
+
+                        <EditText
+                            android:id="@+id/etNuevaEnvergadura"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:hint="@string/add_bird_hint_wingspan"
+                            android:background="@drawable/input_round"
+                            android:paddingStart="15dp"
+                            android:layout_marginStart="6dp"
+                            android:textSize="14sp"/>
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/etNuevaIdentificacion"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:hint="@string/add_bird_hint_identification"
+                        android:gravity="top"
+                        android:padding="15dp"
+                        android:background="@drawable/input_round"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Sección: Hábitat y Costumbres -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                android:layout_marginBottom="16dp"
+                xmlns:app="http://schemas.android.com/apk/res-auto">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/add_bird_habitat_ethology"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="12dp"
+                        android:textColor="#666666"/>
+
+                    <EditText
+                        android:id="@+id/etNuevoHabitat"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="@string/add_bird_hint_habitat"
+                        android:background="@drawable/input_round"
+                        android:paddingStart="15dp"
+                        android:layout_marginBottom="12dp"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:id="@+id/etNuevaAlimentacion"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="@string/add_bird_hint_diet"
+                        android:background="@drawable/input_round"
+                        android:paddingStart="15dp"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Sección: Notas adicionales -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                android:layout_marginBottom="30dp"
+                xmlns:app="http://schemas.android.com/apk/res-auto">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/add_bird_general_desc"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="12dp"
+                        android:textColor="#666666"/>
+
+                    <EditText
+                        android:id="@+id/etNuevaDesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:hint="@string/add_bird_hint_details"
+                        android:gravity="top"
+                        android:padding="15dp"
+                        android:background="@drawable/input_round"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/btnGuardarEdicion"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/edit_bird_btn_save"
+                android:textStyle="bold"
+                android:backgroundTint="#2E7D32"
+                android:textColor="#FFFFFF"
+                android:elevation="8dp"
+                android:stateListAnimator="@null"
+                android:textSize="16sp"
+                android:layout_marginBottom="40dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

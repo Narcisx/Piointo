@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- (modificado) Colores copiados de la App de Pájaros -->
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0277BD</color>
+    <color name="colorPrimaryLight">#4FC3F7</color>
+    <color name="colorAccent">#0288D1</color>
+    <color name="colorBackground">#F0F4F8</color>
+    <color name="colorCardBackground">#FFFFFF</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#607D8B</color>
+    <color name="colorDivider">#E0E0E0</color>
+    <color name="colorLabelBackground">#E1F5FE</color>
+    <color name="colorOverlay">#99000000</color>
+    <color name="colorOverlayLight">#33000000</color>
+</resources>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PIOINTO</string>
+
+    <!-- Menu -->
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_pajaros">Pajaros</string>
+    <string name="menu_ajustes">Ajustes</string>
+    <string name="menu_ayuda">Ayuda</string>
+    <string name="menu_chat_ia">Chat IA</string>
+    <string name="menu_info">Información de la App</string>
+    <string name="menu_agradecimientos">Agradecimientos</string>
+    <string name="menu_anadir">Añadir Pájaros</string>
+    <string name="menu_favoritos">Pájaros Favoritos</string>
+    <string name="salir">Salir</string>
+
+    <!-- Drawer Navigation -->
+    <string name="navigation_drawer_open">Barra de navegación abierta</string>
+    <string name="navigation_drawer_close">Barra de navegación cerrada</string>
+
+    <!-- MainActivity -->
+    <string name="main_guia_aves">Guia aves</string>
+    <string name="main_visualiza_pajaros">Visualiza los pajaros de pinto</string>
+    <string name="main_anade_ave">Añade un ave</string>
+    <string name="main_introduce_ave">Introduce un ave a la colección</string>
+
+    <!-- LoginActivity -->
+    <string name="login_iniciar_sesion">INICIAR SESIÓN</string>
+    <string name="login_entrar">ENTRAR</string>
+    <string name="login_hint_correo">Correo electrónico</string>
+    <string name="login_hint_password">Contraseña</string>
+    <string name="login_no_cuenta">¿No tienes cuenta? Regístrate</string>
+    <string name="login_olvide_password">Olvidé mi contraseña</string>
+
+    <!-- RegistroActivity -->
+    <string name="registro_nueva_cuenta">NUEVA CUENTA</string>
+    <string name="registro_hint_email">Email de usuario</string>
+    <string name="registro_hint_password">Contraseña (6+ caracteres)</string>
+    <string name="registro_crear_cuenta">CREAR CUENTA</string>
+
+    <!-- RecuperarPasswordActivity -->
+    <string name="recuperar_acceso">RECUPERAR ACCESO</string>
+    <string name="recuperar_desc">Te enviaremos un correo para restablecer tu clave.</string>
+    <string name="recuperar_hint_correo">Tu correo electrónico</string>
+    <string name="recuperar_enviar">ENVIAR CORREO</string>
+
+    <!-- CambiarPasswordActivity -->
+    <string name="cambiar_nueva_password">NUEVA CONTRASEÑA</string>
+    <string name="cambiar_hint_nueva_clave">Escribe la nueva clave</string>
+    <string name="cambiar_actualizar">ACTUALIZAR</string>
+
+    <!-- AjustesActivity -->
+    <string name="ajustes_titulo">Ajustes</string>
+    <string name="seccion_cuenta">Cuenta</string>
+    <string name="btn_cambiar_pass">Cambiar Contraseña</string>
+    <string name="btn_borrar_cuenta">Borrar Cuenta</string>
+    <string name="seccion_preferencias">Preferencias</string>
+    <string name="label_idioma">Idioma (Español/Inglés)</string>
+    <string name="label_notificaciones">Avisar nuevos pájaros</string>
+    <string name="btn_cerrar_sesion">CERRAR SESIÓN</string>
+    <string name="ajustes_volver">Volver</string>
+
+    <!-- AgradecimientosActivity -->
+    <string name="agradecimientos_titulo">AGRADECIMIENTOS</string>
+    <string name="agradecimientos_profesores">A nuestros Profesores</string>
+    <string name="agradecimientos_nombres_profesores">• Angel Martín Rodriguez\n• Pedro Jose Salazar Román\n• Daniel Plaza Trujillo\n• Rosario Santos Barradas\n• M.Angeles Ravelo Ferrer\n• Alberto Millan Alhambra</string>
+    <string name="agradecimientos_instituto">Al Instituto</string>
+    <string name="agradecimientos_desc_instituto">IES Calderón de la Barca (Pinto)\nPor brindarnos las herramientas y el espacio para crecer profesionalmente.</string>
+    <string name="agradecimientos_familias">Familias y Compañeros</string>
+    <string name="agradecimientos_desc_familias">A nuestras familias por el apoyo incondicional y a nuestros compañeros por compartir este camino y hacer el aprendizaje más ameno.</string>
+    <string name="agradecimientos_volver">VOLVER</string>
+
+    <!-- Chat IA -->
+    <string name="chat_ia_hint_escribe">Escribe tu duda sobre pájaros...</string>
+    <!-- Bird App Screens -->
+    <string name="lista_pajaros_titulo">Guía de Aves</string>
+    <string name="ficha_nombre_pajaro">Nombre Pájaro</string>
+    <string name="ficha_nombre_cientifico">Nombre Científico</string>
+    <string name="ficha_orden">Orden</string>
+    <string name="ficha_familia">Familia</string>
+    <string name="ficha_longitud">Longitud</string>
+    <string name="ficha_envergadura">Envergadura</string>
+    <string name="ficha_descripcion">Descripción</string>
+    <string name="ficha_identificacion">Identificación</string>
+    <string name="ficha_identificacion_desc">Identificación pájaro</string>
+    <string name="ficha_canto">Canto</string>
+    <string name="ficha_canto_desc">Canto pájaro</string>
+    <string name="ficha_hábitat">Hábitat</string>
+    <string name="ficha_habitat_desc">Habitat pájaro</string>
+    <string name="ficha_alimentacion">Alimentación</string>
+    <string name="ficha_alimentacion_desc">Alimentación pájaro</string>
+    <string name="galeria_titulo">Galería</string>
+    <string name="galeria_sin_fotos">No se encontraron fotos</string>
+
+    <string name="btn_reproducir">▶  Reproducir canto</string>
+    <string name="btn_detener">⏹  Detener</string>
+    <string name="btn_cargando">⏳  Cargando...</string>
+    <string name="error_reproducir_audio">Error al reproducir audio</string>
+    <string name="error_cargar_audio">Error al cargar audio</string>
+
+    <string name="main_title_guia">Guía de Pinto</string>
+    <string name="main_subtitle_hacer">¿Qué quieres hacer hoy?</string>
+    <string name="main_title_carrusel">Carrusel de fotos</string>
+    <string name="main_subtitle_carrusel">¿Que pajaro te gusta más?</string>
+
+    <!-- InformacionActivity -->
+    <string name="info_titulo">SOBRE LA APP</string>
+    <string name="info_guia_aves_titulo">Guía de Aves</string>
+    <string name="info_guia_aves_desc">Esta aplicación es una herramienta completa para amantes de la ornitología. Permite registrar y explorar el maravilloso mundo de las aves de forma interactiva.</string>
+    <string name="info_que_hacer_titulo">¿Qué puedes hacer?</string>
+    <string name="info_que_hacer_desc">• <b>Añadir nuevas aves:</b> Puedes contribuir registrando tus propios hallazgos.\n• <b>Editar Registros:</b> Modifica los detalles de cualquier ave.\n• <b>Guía Detallada:</b> Consulta características y audios de distintas aves.\n• <b>Misterio:</b> Resuelve nuestro Quiz de identificación.\n• <b>Favoritos:</b> Guarda las aves que más te gusten para tenerlas a mano.\n• <b>Filtros Avanzados:</b> Encuentra pájaros usando el buscador o filtrando por su tamaño.</string>
+    <string name="info_equipo_titulo">Equipo de Desarrollo</string>
+    <string name="info_equipo_desc">Creada por:\n• Carla Arribas\n• German Narciso\n• Sergio López</string>
+    <string name="info_entendido">ENTENDIDO</string>
+
+    <!-- AyudaActivity -->
+    <string name="ayuda_titulo">AYUDA Y MANUAL DE USO</string>
+    
+    <string name="ayuda_nav_titulo">1. Navegación General</string>
+    <string name="ayuda_nav_desc">Desliza el dedo desde el borde izquierdo de la pantalla hacia la derecha, o toca el icono del menú (☰) en la parte superior izquierda, para abrir el Menú Principal. Desde ahí podrás acceder a todas las secciones de la aplicación.</string>
+    
+    <string name="ayuda_lista_titulo">2. Guía de Aves</string>
+    <string name="ayuda_lista_desc">En la \"Lista de Pájaros\" encontrarás un catálogo completo de aves. Selecciona cualquier ave para ver una ficha técnica detallada que incluye su nombre científico, familia, y fotografías en alta definición obtenidas directamente desde Wikipedia.</string>
+    
+    <string name="ayuda_ia_titulo">3. Chat Inteligente (Gemini AI)</string>
+    <string name="ayuda_ia_desc">¿Tienes dudas sobre ornitología o alguna especie en particular? Accede a la pantalla de \"Chat con IA\" para conversar con nuestra inteligencia artificial, impulsada por Google Gemini, lista para responder tus preguntas al instante.</string>
+    
+    <string name="ayuda_anadir_titulo">4. Añadir Pájaros</string>
+    <string name="ayuda_anadir_desc">Desde la pantalla principal puedes registrar tus propios avistamientos en la base de datos de Pinto. Escribe el nombre del pájaro, asigna su especie, detalla sus medidas y proporciona una descripción. Podrás guardar los cambios y el pájaro se añadirá automáticamente a la Guía.</string>
+    
+    <string name="ayuda_favoritos_titulo">5. Pájaros Favoritos</string>
+    <string name="ayuda_favoritos_desc">Dentro de la ficha de cualquier pájaro, verás un icono de una estrella. Si lo pulsas, guardarás esa especie en tu lista personal. Puedes acceder rápidamente a todas tus especies guardadas desde la pantalla \"Favoritos\" en el menú principal.</string>
+    
+    <string name="ayuda_buscador_titulo">6. Buscador y Filtros Avanzados</string>
+    <string name="ayuda_buscador_desc">Tanto en la Guía General como en tus Favoritos, cuentas con una barra de búsqueda para filtrar la lista al instante por el nombre del ave. Además, al pulsar el icono del embudo, podrás cruzar filtros taxonómicos (Familia y Orden) e incluso buscar aves que no superen unas medidas específicas (Longitud y Envergadura).</string>
+
+    <string name="ayuda_ajustes_titulo">7. Ajustes de la App</string>
+    <string name="ayuda_ajustes_desc">En la sección de \"Ajustes\" puedes personalizar el funcionamiento de la aplicación, como por ejemplo, cambiar el idioma entre Español e Inglés con aplicación inmediata en todas las pantallas. También puedes gestionar tu sesión.</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="lista_con_tus_aves_preferidas">Lista con tus aves preferidas</string>
+    
+    <!-- (Modificado Final) Strings Filtro y Buscador -->
+    <string name="buscar_pajaro">Buscar pájaro...</string>
+    <string name="filtros_avanzados">Filtros Avanzados</string>
+    <string name="filtro_familia">Familia:</string>
+    <string name="filtro_orden">Orden:</string>
+    <string name="filtro_longitud">Longitud Máxima (cm):</string>
+    <string name="filtro_longitud_hint">Ej: 40</string>
+    <string name="filtro_envergadura">Envergadura Máxima (cm):</string>
+    <string name="filtro_envergadura_hint">Ej: 120</string>
+    <string name="filtro_limpiar">Limpiar</string>
+    <string name="filtro_aplicar">Aplicar</string>
+    <!-- Quiz Strings -->
+    <string name="quiz_titulo">Quiz de Aves</string>
+    <string name="quiz_desc_main">Pon a prueba tus conocimientos sobre las aves de Pinto</string>
+    <string name="quiz_pregunta_progreso">Pregunta %1$d / %2$d</string>
+    <string name="quiz_completado">Completado</string>
+    <string name="quiz_msg_perfecto">¡Perfecto! Eres un experto en aves de Pinto 🏆</string>
+    <string name="quiz_msg_excelente">¡Excelente! Conoces muy bien las aves de tu zona 🌟</string>
+    <string name="quiz_msg_bueno">¡Buen trabajo! Sigue aprendiendo sobre las aves de Pinto 👍</string>
+    <string name="quiz_msg_regular">No está mal, pero puedes mejorar. ¡Inténtalo de nuevo! 📖</string>
+    <string name="quiz_msg_mal">¡Ánimo! Explora la guía y vuelve a intentarlo 🔍</string>
+    <string name="quiz_volver_inicio">Volver al inicio</string>
+    <string name="quiz_completado_titulo">¡Quiz completado!</string>
+    
+    <string name="quiz_q1_q">¿Cuál es el nombre científico de la Avutarda?</string>
+    <string-array name="quiz_q1_opts"><item>Otis tarda</item><item>Tetrax tetrax</item><item>Ciconia ciconia</item><item>Alectoris rufa</item></string-array>
+    
+    <string name="quiz_q2_q">La Avutarda es considerada una de las aves voladoras más pesadas del mundo. ¿En qué tipo de hábitat se encuentra principalmente?</string>
+    <string-array name="quiz_q2_opts"><item>Bosques densos</item><item>Estepas cerealistas</item><item>Zonas costeras</item><item>Alta montaña</item></string-array>
+    
+    <string name="quiz_q3_q">¿A qué orden pertenece la Avutarda?</string>
+    <string-array name="quiz_q3_opts"><item>Passeriformes</item><item>Otidiformes</item><item>Ciconiiformes</item><item>Falconiformes</item></string-array>
+    
+    <string name="quiz_q4_q">¿Cuál es el nombre científico de la Perdiz Roja?</string>
+    <string-array name="quiz_q4_opts"><item>Perdix perdix</item><item>Alectoris rufa</item><item>Coturnix coturnix</item><item>Phasianus colchicus</item></string-array>
+    
+    <string name="quiz_q5_q">¿De qué se alimenta principalmente la Perdiz Roja?</string>
+    <string-array name="quiz_q5_opts"><item>Peces pequeños</item><item>Insectos y pequeños mamíferos</item><item>Semillas, brotes y pequeños invertebrados</item><item>Exclusivamente de frutos</item></string-array>
+    
+    <string name="quiz_q6_q">¿Cuál es el nombre científico de la Cigüeña Blanca?</string>
+    <string-array name="quiz_q6_opts"><item>Ciconia nigra</item><item>Ciconia ciconia</item><item>Mycteria ibis</item><item>Ardea cinerea</item></string-array>
+    
+    <string name="quiz_q7_q">La Cigüeña Blanca es considerada el animal más popular de la fauna silvestre de Pinto. ¿Dónde suele construir su nido?</string>
+    <string-array name="quiz_q7_opts"><item>En madrigueras subterráneas</item><item>En tejados, torres y postes elevados</item><item>En arbustos a ras de suelo</item><item>En acantilados costeros</item></string-array>
+    
+    <string name="quiz_q8_q">¿A qué familia pertenece la Cigüeña Blanca?</string>
+    <string-array name="quiz_q8_opts"><item>Ardeidae</item><item>Threskiornithidae</item><item>Ciconiidae</item><item>Accipitridae</item></string-array>
+    
+    <string name="quiz_q9_q">¿Cuál es el nombre científico del Sisón Común?</string>
+    <string-array name="quiz_q9_opts"><item>Otis tarda</item><item>Tetrax tetrax</item><item>Burhinus oedicnemus</item><item>Pterocles orientalis</item></string-array>
+    
+    <string name="quiz_q10_q">El Sisón Común es un ave típica de las estepas de Pinto. ¿Qué característica tiene su vuelo?</string>
+    <string-array name="quiz_q10_opts"><item>Planea durante horas sin batir las alas</item><item>Produce un silbido característico con las alas al volar</item><item>Solo vuela de noche</item><item>Vuela exclusivamente en formación en V</item></string-array>
+    
+    <string name="quiz_q11_q">¿Cuál es el nombre científico del Críalo?</string>
+    <string-array name="quiz_q11_opts"><item>Cuculus canorus</item><item>Clamator glandarius</item><item>Upupa epops</item><item>Merops apiaster</item></string-array>
+    
+    <string name="quiz_q12_q">El Críalo tiene un comportamiento reproductivo muy peculiar. ¿Cuál es?</string>
+    <string-array name="quiz_q12_opts"><item>Construye nidos colgantes muy elaborados</item><item>Es parásito de cría: pone sus huevos en nidos de otras aves</item><item>Incuba los huevos en la arena caliente</item><item>Ambos progenitores incuban por turnos de 24 horas</item></string-array>
+    
+    <string name="quiz_q13_q">¿Cuál es el nombre científico del Jilguero?</string>
+    <string-array name="quiz_q13_opts"><item>Serinus serinus</item><item>Carduelis carduelis</item><item>Fringilla coelebs</item><item>Chloris chloris</item></string-array>
+    
+    <string name="quiz_q14_q">¿Por qué planta muestra especial preferencia el Jilguero para alimentarse?</string>
+    <string-array name="quiz_q14_opts"><item>Roble</item><item>Cardo</item><item>Encina</item><item>Olivo</item></string-array>
+    
+    <string name="quiz_q15_q">¿Qué color característico tiene la cara del Jilguero?</string>
+    <string-array name="quiz_q15_opts"><item>Azul intenso</item><item>Rojo, blanco y negro</item><item>Amarillo uniforme</item><item>Verde esmeralda</item></string-array>
+    
+    <string name="quiz_q16_q">¿Cuál es el nombre científico del Milano Real?</string>
+    <string-array name="quiz_q16_opts"><item>Milvus migrans</item><item>Milvus milvus</item><item>Aquila chrysaetos</item><item>Circus aeruginosus</item></string-array>
+    
+    <string name="quiz_q17_q">¿Qué forma tiene la cola del Milano Real, que ayuda a identificarlo en vuelo?</string>
+    <string-array name="quiz_q17_opts"><item>Redondeada</item><item>Cuadrada</item><item>Ahorquillada</item><item>Puntiaguda</item></string-array>
+    
+    <string name="quiz_q18_q">¿Cuál es el nombre científico del Aguilucho Pálido?</string>
+    <string-array name="quiz_q18_opts"><item>Circus pygargus</item><item>Circus aeruginosus</item><item>Circus cyaneus</item><item>Accipiter gentilis</item></string-array>
+    
+    <string name="quiz_q19_q">¿Qué rasgo físico distingue fácilmente a la Avefría Europea?</string>
+    <string-array name="quiz_q19_opts"><item>Un largo pico curvo</item><item>Una cresta o moño en la cabeza</item><item>Patas palmeadas de color rojo</item><item>Plumaje completamente blanco</item></string-array>
+    
+    <string name="quiz_q20_q">¿Cuál es el nombre científico del Busardo Ratonero?</string>
+    <string-array name="quiz_q20_opts"><item>Buteo buteo</item><item>Falco peregrinus</item><item>Aquila pennata</item><item>Milvus migrans</item></string-array>
+    
+    <string name="quiz_q21_q">¿De qué se alimenta principalmente el Busardo Ratonero?</string>
+    <string-array name="quiz_q21_opts"><item>Peces y anfibios</item><item>Frutos y semillas</item><item>Pequeños roedores</item><item>Insectos acuáticos</item></string-array>
+    
+    <string name="quiz_q22_q">¿Qué capacidad de vuelo es típica del Cernícalo Vulgar para localizar a sus presas?</string>
+    <string-array name="quiz_q22_opts"><item>Vuela en espiral ascendente</item><item>Se cierne en el aire (vuelo estacionario)</item><item>Vuela rasante sobre el agua</item><item>Realiza picados a más de 300 km/h</item></string-array>
+    
+    <string name="quiz_q23_q">¿Cuál es el nombre científico del Mochuelo Europeo?</string>
+    <string-array name="quiz_q23_opts"><item>Strix aluco</item><item>Tyto alba</item><item>Athene noctua</item><item>Bubo bubo</item></string-array>
+    
+    <string name="quiz_q24_q">¿En qué momento del día es más activo el Mochuelo Europeo?</string>
+    <string-array name="quiz_q24_opts"><item>Exclusivamente de noche</item><item>Al amanecer y al atardecer (crepuscular)</item><item>Solo a mediodía</item><item>Únicamente durante tormentas</item></string-array>
+    
+    <string name="quiz_q25_q">¿Qué rasgo físico da nombre a la Cogujada Común?</string>
+    <string-array name="quiz_q25_opts"><item>Su cola muy larga</item><item>Su cresta puntiaguda (cogujada)</item><item>Su pico curvo</item><item>Sus patas rojas</item></string-array>
+    
+    <string name="quiz_q26_q">¿Cuál es el nombre científico del Gorrión Común?</string>
+    <string-array name="quiz_q26_opts"><item>Passer montanus</item><item>Passer domesticus</item><item>Petronia petronia</item><item>Sturnus vulgaris</item></string-array>
+    
+    <string name="quiz_q27_q">¿Qué marca blanca característica tiene la Paloma Torcaz en el cuello?</string>
+    <string-array name="quiz_q27_opts"><item>Una línea vertical</item><item>Manchas blancas a ambos lados del cuello</item><item>Un collar completo blanco</item><item>No tiene ninguna marca blanca</item></string-array>
+    <!-- Add / Edit Bird Strings -->
+    <string name="add_bird_title">Nuevo Avistamiento</string>
+    <string name="add_bird_basic_info">INFORMACIÓN BÁSICA</string>
+    <string name="add_bird_hint_name">Nombre común (ej: Gorrión)</string>
+    <string name="add_bird_hint_scientific">Nombre científico</string>
+    <string name="add_bird_hint_order">Orden</string>
+    <string name="add_bird_hint_family">Familia</string>
+    <string name="add_bird_morphology">MORFOLOGÍA Y DIMENSIONES</string>
+    <string name="add_bird_hint_length">Longitud</string>
+    <string name="add_bird_hint_wingspan">Envergadura</string>
+    <string name="add_bird_hint_identification">Claves de identificación...</string>
+    <string name="add_bird_habitat_ethology">HÁBITAT Y ETOLOGÍA</string>
+    <string name="add_bird_hint_habitat">Hábitat natural</string>
+    <string name="add_bird_hint_diet">Alimentación</string>
+    <string name="add_bird_general_desc">DESCRIPCIÓN GENERAL</string>
+    <string name="add_bird_hint_details">Escribe aquí los detalles del avistamiento...</string>
+    <string name="add_bird_btn_register">REGISTRAR AVISTAMIENTO</string>
+    
+    <string name="edit_bird_title">Editar Pájaro</string>
+    <string name="edit_bird_btn_save">GUARDAR CAMBIOS</string>
+    <!-- Chat IA Strings -->
+    <string name="chat_ia_bienvenida">¡Hola! Soy la Inteligencia Artificial de PioInto, un experto en ornitología. ¿En qué te puedo ayudar hoy?</string>
+    <string name="chat_ia_error_conexion">Ha ocurrido un error: %s. Por favor, inténtalo de nuevo en un momento.</string>
+    <string name="chat_ia_error_cuota">Has alcanzado el límite de preguntas seguidas. Por favor, espera un minuto antes de preguntar otra vez.</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_inicio"
+            android:title="@string/menu_inicio"
+            android:icon="@drawable/casa"/>
+        <item
+            android:id="@+id/nav_pajaros"
+            android:title="@string/menu_pajaros"
+            android:icon="@drawable/pajaro"/>
+        <item
+            android:id="@+id/nav_ia"
+            android:title="@string/menu_chat_ia"
+            android:icon="@drawable/ia2"/>
+        <item
+            android:id="@+id/nav_ajustes"
+            android:title="@string/menu_ajustes"
+            android:icon="@drawable/ajustes"/>
+        <item
+            android:id="@+id/nav_ayuda"
+            android:title="@string/menu_ayuda"
+            android:icon="@drawable/ayuda"/>
+        <item
+            android:id="@+id/nav_info"
+            android:title="@string/menu_info"
+            android:icon="@drawable/informacion"/>
+        <item
+            android:id="@+id/nav_agra"
+            android:title="@string/menu_agradecimientos"
+            android:icon="@drawable/agradecimientos"/>
+    </group>
+
+
+
+</menu>

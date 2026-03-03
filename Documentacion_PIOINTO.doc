@@ -1,0 +1,398 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta charset="utf-8">
+<title>Documentación del Proyecto: PIOINTO</title>
+<style>
+    body { font-family: 'Calibri', 'Arial', sans-serif; font-size: 11pt; line-height: 1.5; margin: 40px; }
+    h1 { font-size: 24pt; color: #2F5496; text-align: center; margin-bottom: 20px; }
+    h2 { font-size: 16pt; color: #2F5496; border-bottom: 1px solid #2F5496; padding-bottom: 2px; margin-top: 30px; }
+    h3 { font-size: 13pt; color: #1F3763; margin-top: 20px; }
+    h4 { font-size: 11.5pt; color: #2E74B5; margin-top: 15px; }
+    p { margin-bottom: 10px; text-align: justify; }
+    ul { margin-bottom: 15px; }
+    li { margin-bottom: 5px; }
+    a { color: #0563C1; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .toc { background-color: #F8F9FA; padding: 20px; border: 1px solid #DEE2E6; margin-bottom: 40px; page-break-after: always; }
+    .toc-title { font-size: 16pt; font-weight: bold; margin-bottom: 15px; color: #2F5496; }
+    .toc-item { margin-bottom: 5px; }
+    .toc-h2 { margin-left: 0px; font-weight: bold; margin-top: 10px; }
+    .toc-h3 { margin-left: 20px; font-weight: normal; }
+    .toc-h4 { margin-left: 40px; font-size: 10pt; font-weight: normal; }
+    .page-break { page-break-after: always; }
+</style>
+</head>
+<body>
+
+<h1>Documentación del Proyecto: PIOINTO</h1>
+
+<div class="toc">
+    <div class="toc-title">Índice General</div>
+    <div class="toc-item toc-h2"><a href="#sec1">1. Introducción y Alcance</a></div>
+    <div class="toc-item toc-h3"><a href="#sec1.1">1.1. Introducción</a></div>
+    <div class="toc-item toc-h3"><a href="#sec1.2">1.2. Antecedentes y motivación</a></div>
+    <div class="toc-item toc-h3"><a href="#sec1.3">1.3. Objetivos</a></div>
+    <div class="toc-item toc-h4"><a href="#sec1.3.1">1.3.1. Objetivo general</a></div>
+    <div class="toc-item toc-h4"><a href="#sec1.3.2">1.3.2. Objetivos específicos</a></div>
+    <div class="toc-item toc-h4"><a href="#sec1.3.3">1.3.3. Estrategia corporativa (Lean &amp; Bootstrapping)</a></div>
+    <div class="toc-item toc-h3"><a href="#sec1.4">1.4. Alcance del proyecto</a></div>
+    <div class="toc-item toc-h4"><a href="#sec1.4.1">1.4.1. Dentro del alcance</a></div>
+    <div class="toc-item toc-h4"><a href="#sec1.4.2">1.4.2. Fuera del alcance (futuras fases)</a></div>
+
+    <div class="toc-item toc-h2"><a href="#sec2">2. Estudio de mercado</a></div>
+    <div class="toc-item toc-h3"><a href="#sec2.1">2.1. Análisis del sector en España</a></div>
+    <div class="toc-item toc-h3"><a href="#sec2.2">2.2. Segmentación y público objetivo</a></div>
+    <div class="toc-item toc-h3"><a href="#sec2.3">2.3. Análisis de competencia</a></div>
+    <div class="toc-item toc-h3"><a href="#sec2.4">2.4. Validación de viabilidad y cuota de mercado</a></div>
+
+    <div class="toc-item toc-h2"><a href="#sec3">3. Capítulo técnico</a></div>
+    <div class="toc-item toc-h3"><a href="#sec3.1">3.1. Análisis de requisitos y casos de uso</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.1.1">3.1.1. Identificación de actores</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.1.2">3.1.2. Requisitos no funcionales (RNF)</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.1.3">3.1.3. Requisitos funcionales (RF)</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.1.4">3.1.4. Diagrama de casos de uso</a></div>
+    <div class="toc-item toc-h3"><a href="#sec3.2">3.2. Identidad visual y UX</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.2.1">3.2.1. Material Design</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.2.2">3.2.2. Paleta de colores</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.2.3">3.2.3. Tipografía</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.2.4">3.2.4. Recursos gráficos</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.2.5">3.2.5. Wireframes y mockups</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.2.6">3.2.6. Navegación</a></div>
+    <div class="toc-item toc-h3"><a href="#sec3.3">3.3. Arquitectura del sistema</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.3.1">3.3.1. Stack tecnológico</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.3.2">3.3.2. Patrón de arquitectura</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.3.3">3.3.3. Diseño de la base de datos</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.3.4">3.3.4. Estructura de clases (diagrama conceptual)</a></div>
+    <div class="toc-item toc-h3"><a href="#sec3.4">3.4. Requisitos técnicos para la implantación</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.4.1">3.4.1. Hardware requerido</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.4.2">3.4.2. Software y librerías</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.4.3">3.4.3. Requisitos de conectividad</a></div>
+    <div class="toc-item toc-h3"><a href="#sec3.5">3.5. Testing y QA</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.5.1">3.5.1. Metodología y herramientas</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.5.2">3.5.2. Plan de pruebas ejecutado</a></div>
+    <div class="toc-item toc-h4"><a href="#sec3.5.3">3.5.3. Evidencias de calidad</a></div>
+    <div class="toc-item toc-h3"><a href="#sec3.6">3.6. Despliegue</a></div>
+    <div class="toc-item toc-h3"><a href="#sec3.7">3.7. Mantenimiento</a></div>
+
+    <div class="toc-item toc-h2"><a href="#sec4">4. Estudio Legal</a></div>
+    <div class="toc-item toc-h3"><a href="#sec4.1">4.1. Licencias de software</a></div>
+    <div class="toc-item toc-h3"><a href="#sec4.2">4.2. Privacidad y protección de datos (RGPD y LOPDGDD)</a></div>
+    <div class="toc-item toc-h4"><a href="#sec4.2.1">4.2.1. Tipología de datos tratados</a></div>
+    <div class="toc-item toc-h4"><a href="#sec4.2.2">4.2.2. Medidas de cumplimiento implementadas</a></div>
+    <div class="toc-item toc-h3"><a href="#sec4.3">4.3. Marco legal de servicios digitales (LSSI-CE)</a></div>
+    <div class="toc-item toc-h4"><a href="#sec4.3.1">4.3.1. Avisos legales y condiciones de uso</a></div>
+    <div class="toc-item toc-h4"><a href="#sec4.3.2">4.3.2. Propiedad intelectual e industrial</a></div>
+    <div class="toc-item toc-h3"><a href="#sec4.4">4.4. Responsabilidad y Ciberseguros</a></div>
+    <div class="toc-item toc-h4"><a href="#sec4.4.1">4.4.1. Justificación de la Cobertura</a></div>
+
+    <div class="toc-item toc-h2"><a href="#sec5">5. Estudio Económico</a></div>
+    <div class="toc-item toc-h3"><a href="#sec5.1">5.1. Costos de Inversión (CAPEX)</a></div>
+    <div class="toc-item toc-h4"><a href="#sec5.1.1">5.1.1. Costes de Arranque (Cash-Flow Negativo Inicial)</a></div>
+    <div class="toc-item toc-h4"><a href="#sec5.1.2">5.1.2. Valoración del Desarrollo (Activo Intangible)</a></div>
+    <div class="toc-item toc-h3"><a href="#sec5.2">5.2. Costos Operativos (OPEX)</a></div>
+    <div class="toc-item toc-h3"><a href="#sec5.3">5.3. Modelo de Monetización</a></div>
+    <div class="toc-item toc-h3"><a href="#sec5.4">5.4. Estados Financieros Proyectados (Año 1)</a></div>
+    <div class="toc-item toc-h3"><a href="#sec5.5">5.5. Punto de Equilibrio (Break-even)</a></div>
+    <div class="toc-item toc-h4"><a href="#sec5.5.1">5.5.1. Cálculo del Margen de Contribución Unitario</a></div>
+    <div class="toc-item toc-h4"><a href="#sec5.5.2">5.5.2. Usuarios Necesarios para Cubrir Fijos</a></div>
+
+    <div class="toc-item toc-h2"><a href="#sec6">6. Cronograma</a></div>
+    <div class="toc-item toc-h3"><a href="#sec6.1">6.1. Ciclo de Vida del Proyecto</a></div>
+    <div class="toc-item toc-h4"><a href="#sec6.1.1">6.1.1. Planificación</a></div>
+    <div class="toc-item toc-h4"><a href="#sec6.1.2">6.1.2. Diseño</a></div>
+    <div class="toc-item toc-h4"><a href="#sec6.1.3">6.1.3. Desarrollo</a></div>
+    <div class="toc-item toc-h4"><a href="#sec6.1.4">6.1.4. Testing</a></div>
+    <div class="toc-item toc-h4"><a href="#sec6.1.5">6.1.5. Despliegue</a></div>
+    <div class="toc-item toc-h4"><a href="#sec6.1.6">6.1.6. Mantenimiento</a></div>
+    <div class="toc-item toc-h3"><a href="#sec6.2">6.2. Planificación Temporal</a></div>
+
+    <div class="toc-item toc-h2"><a href="#sec7">7. Conclusiones y Recomendaciones</a></div>
+    <div class="toc-item toc-h3"><a href="#sec7.1">7.1. Conclusión</a></div>
+    <div class="toc-item toc-h3"><a href="#sec7.2">7.2. Aprendizaje Personal</a></div>
+    <div class="toc-item toc-h3"><a href="#sec7.3">7.3. Acciones a Futuro (Roadmap)</a></div>
+    <div class="toc-item toc-h4"><a href="#sec7.3.1">7.3.1. Evolución Funcional (Mejoras del Producto)</a></div>
+    <div class="toc-item toc-h4"><a href="#sec7.3.2">7.3.2. Expansión Estratégica (Roadmap 2026)</a></div>
+
+    <div class="toc-item toc-h2"><a href="#sec8">8. Manuales del Sistema</a></div>
+    <div class="toc-item toc-h3"><a href="#sec8.1">8.1. Manual para el Desarrollador</a></div>
+    <div class="toc-item toc-h3"><a href="#sec8.2">8.2. Manual de Usuario</a></div>
+    <div class="toc-item toc-h4"><a href="#sec8.2.1">8.2.1. 1. Inicio de Sesión (Login)</a></div>
+    <div class="toc-item toc-h4"><a href="#sec8.2.2">8.2.2. 2. Guía y Favoritos</a></div>
+    <div class="toc-item toc-h4"><a href="#sec8.2.3">8.2.3. 3. Añadir o Editar Pájaro</a></div>
+    <div class="toc-item toc-h4"><a href="#sec8.2.4">8.2.4. 4. Chat IA y Quiz</a></div>
+
+    <div class="toc-item toc-h2"><a href="#sec9">9. Webgrafía</a></div>
+</div>
+
+<h2 id="sec1">1. Introducción y Alcance</h2>
+<h3 id="sec1.1">1.1. Introducción</h3>
+<p>PIOINTO es una aplicación móvil diseñada para los amantes de la ornitología y la naturaleza en la región de Pinto y alrededores. Sirve como una guía interactiva y colaborativa donde los usuarios pueden explorar, registrar y aprender sobre diversas especies de aves.</p>
+
+<h3 id="sec1.2">1.2. Antecedentes y motivación</h3>
+<p>La motivación principal nace de la necesidad de acercar la biodiversidad local a los ciudadanos, fomentando el conocimiento y cuidado del medio ambiente. Al digitalizar la observación de aves, se facilita el acceso a información detallada y se crea una comunidad de observadores apoyada en el ámbito académico y herramientas en la nube.</p>
+
+<h3 id="sec1.3">1.3. Objetivos</h3>
+<h4 id="sec1.3.1">1.3.1. Objetivo general</h4>
+<p>Desarrollar una aplicación móvil funcional e intuitiva (PIOINTO) que actúe como guía de aves local, permitiendo a los usuarios visualizar información detallada de las especies y registrar sus propios avistamientos en una base de datos unificada.</p>
+
+<h4 id="sec1.3.2">1.3.2. Objetivos específicos</h4>
+<ul>
+    <li>Implementar un sistema de registro y autenticación seguro de usuarios utilizando Supabase (Backend as a Service).</li>
+    <li>Crear una base de datos centralizada de aves con información enriquecida (imágenes, sonidos, taxonomía, hábitat, etc.) integrada con APIs externas (como iNaturalist y Wikipedia).</li>
+    <li>Integrar asistencia interactiva impulsada por Inteligencia artificial (API de Gemini) para resolver dudas de ornitología a los usuarios.</li>
+    <li>Ofrecer funcionalidades de interactividad y retención como un Quiz educativo y listas de favoritos personalizables.</li>
+    <li>Asegurar que la aplicación cuente con una base multiidioma (Español/Inglés).</li>
+</ul>
+
+<h4 id="sec1.3.3">1.3.3. Estrategia corporativa (Lean &amp; Bootstrapping)</h4>
+<p>Se ha seguido un enfoque ágil y de mínimos recursos de capitalización iniciales (bootstrapping). Esto prioriza completar un MVP (Mínimo Producto Viable) funcional donde el registro y la visualización cumplen las necesidades críticas, utilizando capas gratuitas de bases de datos y la cuota básica de las APIs.</p>
+
+<h3 id="sec1.4">1.4. Alcance del proyecto</h3>
+<h4 id="sec1.4.1">1.4.1. Dentro del alcance</h4>
+<ul>
+    <li>Desarrollo de la aplicación nativa en Android.</li>
+    <li>Autenticación completa: Login, Registro, Recuperación de contraseña y Borrado de cuenta.</li>
+    <li>Panel principal de navegación (Drawer) interactivo en varias pantallas.</li>
+    <li>Visualización del listado de aves (fichas y carrusel automático).</li>
+    <li>Capacidad de añadir, modificar y eliminar las aves con protección y políticas.</li>
+    <li>Buscador y filtros avanzados por familia, orden taxonómico y dimensiones (longitud y envergadura).</li>
+    <li>Chat experto en ornitología nativo usando el modelo de IA Gemini.</li>
+    <li>Sistema del juego Quiz y listado de preferidos/Favoritos.</li>
+    <li>Ajustes de la aplicación (Ej: Traducción e idioma).</li>
+</ul>
+
+<h4 id="sec1.4.2">1.4.2. Fuera del alcance (futuras fases)</h4>
+<ul>
+    <li>Versión compatible para iOS de Apple en Objective-C/Swift.</li>
+    <li>Sección de red social y seguimiento a otros usuarios de la app.</li>
+    <li>Reconocimiento y clasificación de flora y fauna mediante modelos de Computer Vision/IA offline de los dispositivos móviles locales (uso de cámara nativa en la app offline).</li>
+</ul>
+
+<div class="page-break"></div>
+
+<h2 id="sec2">2. Estudio de mercado</h2>
+<h3 id="sec2.1">2.1. Análisis del sector en España</h3>
+<p>El turismo ornitológico y observación de aves silvestres (birdwatching) está recibiendo un amplio interés en España gracias a ser uno de los países y puntos ecológicos de cruce más relevantes del continente. Herramientas técnicas con interfaces accesibles potencian la inclusión intergeneracional para la observación.</p>
+
+<h3 id="sec2.2">2.2. Segmentación y público objetivo</h3>
+<ul>
+    <li><b>Familias y Estudiantes:</b> Personas de la región de Pinto (Centro) que busquen aprendizaje interactivo educativo junto a paseos ecológicos.</li>
+    <li><b>Aficionados/Expertos de la Naturaleza:</b> Grupos locales que requieren catalogación y un control o guía en mano para sus visitas y salidas.</li>
+</ul>
+
+<h3 id="sec2.3">2.3. Análisis de competencia</h3>
+<p>Existen software líderes como "eBird" de la Universidad de Cornell o "Merlin Bird ID". Nuestra diferencia es el modelo local (Fauna específica de Pinto y aves ibéricas) y nuestro valor didáctico combinado con una API conversacional (Gemini).</p>
+
+<h3 id="sec2.4">2.4. Validación de viabilidad y cuota de mercado</h3>
+<p>El uso de tecnologías PaaS/BaaS (Como Google Cloud AI o Supabase) elimina un 80% del tiempo y costo de implantación de lógica. Es un nicho acotado pero rentable y con público accesible inmediato.</p>
+
+<div class="page-break"></div>
+
+<h2 id="sec3">3. Capítulo técnico</h2>
+<h3 id="sec3.1">3.1. Análisis de requisitos y casos de uso</h3>
+<h4 id="sec3.1.1">3.1.1. Identificación de actores</h4>
+<ul>
+    <li><b>Usuario No Autenticado:</b> Podrá revisar qué ofrece la app y acceder al panel de registro o inicio de sesión y recuperación.</li>
+    <li><b>Usuario Autenticado:</b> Capaz de visualizar la base de datos de aves completa, navegar los paneles laterales, ejecutar preguntas a la IA y someterse al Quiz.</li>
+    <li><b>Colaborador/Dador de Datos:</b> El mismo usuario que usa la función de insertar pájaros ('Añadir ave').</li>
+</ul>
+
+<h4 id="sec3.1.2">3.1.2. Requisitos no funcionales (RNF)</h4>
+<ul>
+    <li><b>Internacionalización:</b> Bilingüismo aplicado bajo XML res/values-en y base.</li>
+    <li><b>Rendimiento:</b> Flujos asíncronos y concurrencia gestionada y uso de APIs eficientes.</li>
+    <li><b>Seguridad Transaccional:</b> JWT, gestión por headers y Tokens en las peticiones Retrofit contra Supabase. Ocultamiento de variables sensibles del core a los logs de usuario final.</li>
+</ul>
+
+<h4 id="sec3.1.3">3.1.3. Requisitos funcionales (RF)</h4>
+<p>Navegabilidad cruzada, operaciones CRUD completas en 'Aves', operaciones de gestión de perfil, despliegue de Media (Carruseles, Audio en MediaPlayer y Chat Dinámico) y uso de filtros complejos bajo los listados.</p>
+
+<h4 id="sec3.1.4">3.1.4. Diagrama de casos de uso</h4>
+<p><i>(Añadir el diagrama y representación visual aquí en la revisión final del formato).</i></p>
+
+<h3 id="sec3.2">3.2. Identidad visual y UX</h3>
+<h4 id="sec3.2.1">3.2.1. Material Design</h4>
+<p>Uso de elevaciones, CardViews y componentes UI clásicos aportados por AndroidX bajo interfaces coherentes y padding simétrico (15-20dp).</p>
+
+<h4 id="sec3.2.2">3.2.2. Paleta de colores</h4>
+<p>Tonos vivos complementando un fondo cálido natural; se previene saturación con colores mate con modos noche donde se aplicará a un gris pálido. Gradientes en los widgets del Dashboard/Inicio.</p>
+
+<h4 id="sec3.2.3">3.2.3. Tipografía</h4>
+<p>La predeterminada es un escalado modular adaptativo con fuentes sin remates de legibilidad general como la estándar Roboto / sans-serif.</p>
+
+<h4 id="sec3.2.4">3.2.4. Recursos gráficos</h4>
+<p>El uso del Carrusel para pre-cargar la API randomizada aporta un toque visual muy característico.</p>
+
+<h4 id="sec3.2.5">3.2.5. Wireframes y mockups</h4>
+<p>Iniciativa y conceptualización general en la plataforma online de Marvel App antes de pasar la programación nativa XML a los Activities de Android.</p>
+
+<h4 id="sec3.2.6">3.2.6. Navegación</h4>
+<p>Sistema Drawer para flujo general (lateral) complementado por intents directos según la jerarquía padre/hijo del Activity usando Toolbar Back Buttons.</p>
+
+<h3 id="sec3.3">3.3. Arquitectura del sistema</h3>
+<h4 id="sec3.3.1">3.3.1. Stack tecnológico</h4>
+<ul>
+    <li><b>Aplicación móvil Front-end:</b> Android Nativo (Java / XML UI).</li>
+    <li><b>Backend:</b> Supabase (Base de datos PostgreSQL, Gestión de Autenticación, RLS Policies).</li>
+    <li><b>Procesamiento de Voz/IA:</b> API de Google Gemini (SDK Java).</li>
+    <li><b>APIs secundarias orientadas a Media:</b> APIs REST de Wikipedia o iNaturalist.</li>
+</ul>
+
+<h4 id="sec3.3.2">3.3.2. Patrón de arquitectura</h4>
+<p>Patrón MVC genérico en Android asimilando controladores contra vistas XML con gestión central de Retrofit, e interfaces bajo las clases <code>SupabaseService</code> e inyección de datos con Modelos tipo <code>Pajaro.java</code>.</p>
+
+<h4 id="sec3.3.3">3.3.3. Diseño de la base de datos</h4>
+<p>Proyecto Supabase anclado al URL <code>kgogfcfbkanmibmbaqas.supabase.co</code>. Tabla principal: <code>pajaros</code>, con esquemas de text para nombre, clasificación, características y morfología. Se prescindió de los campos <code>canto</code> y <code>imagen_url</code> nativos en favor de calculados por API, previniendo el error 400 'PGRST204'.</p>
+
+<h4 id="sec3.3.4">3.3.4. Estructura de clases (diagrama conceptual)</h4>
+<p>Mástil: <code>BaseActivity</code>. Clases gestoras de dominio y pantallas de UI como <code>MainActivity</code>, <code>ListaPajaros</code>, y paneles C-R-U-D como <code>AnadirPajaroActivity</code>.</p>
+
+<h3 id="sec3.4">3.4. Requisitos técnicos para la implantación</h3>
+<h4 id="sec3.4.1">3.4.1. Hardware requerido</h4>
+<p>Smartphone Android 8+ y PC con suficiente RAM para ejecutar Android Studio de manera cómoda. Se necesitó red Wi-Fi permanente.</p>
+
+<h4 id="sec3.4.2">3.4.2. Software y librerías</h4>
+<p>Android Studio, Gradle (Librerías añadidas: Gson, Retrofit2, y Material UI).</p>
+
+<h4 id="sec3.4.3">3.4.3. Requisitos de conectividad</h4>
+<p>Conexión a internet ineludible por el uso de Supabase e iNaturalist / Gemini APIs.</p>
+
+<h3 id="sec3.5">3.5. Testing y QA</h3>
+<h4 id="sec3.5.1">3.5.1. Metodología y herramientas</h4>
+<p>Test unitario ad-hoc presencial y empírico entre el grupo Carla, Germán y Sergio, simulando escenarios adversos (ejemplo, registro con campos vacíos de correo o repetidos de aves).</p>
+
+<h4 id="sec3.5.2">3.5.2. Plan de pruebas ejecutado</h4>
+<p>Soporte Antigravity Agentic Testing. Test a borrado de cuenta en red y parcheo del código para la exclusión RLS en Supabase, previniendo inyecciones o borrado denegado de usuario desde SQL.</p>
+
+<h4 id="sec3.5.3">3.5.3. Evidencias de calidad</h4>
+<p>Validación multi-idioma comprobando la Herencia universal hacia la clase <code>BaseActivity</code> de cada panel, corrigiendo desajustes entre traducciones de sistema host y ajustes app.</p>
+
+<h3 id="sec3.6">3.6. Despliegue</h3>
+<p>Configuración .APK Signed Release orientada a distribuciones no administradas (Sideloading o Beta en tiendas Play).</p>
+
+<h3 id="sec3.7">3.7. Mantenimiento</h3>
+<p>Ajuste continuado de keys (Keys revocables / Anon keys base) y límites del plan tarifario Free en Gemini AI a 1 minuto max refesh rates según RequestLimits.</p>
+
+<div class="page-break"></div>
+
+<h2 id="sec4">4. Estudio Legal</h2>
+<h3 id="sec4.1">4.1. Licencias de software</h3>
+<p>Uso de bibliotecas en licencia Apache Software Foundation 2.0 y uso privativo parcial de componentes. Eximente de responsabilidades en la utilización del SDK de Gemini de Google.</p>
+
+<h3 id="sec4.2">4.2. Privacidad y protección de datos (RGPD y LOPDGDD)</h3>
+<h4 id="sec4.2.1">4.2.1. Tipología de datos tratados</h4>
+<p>Uso de dirección de email únicamente para Auth. Sin datos sensibles extraídos del dispositivo del usuario (Solo telemetría estándar si estuviese habilitada).</p>
+
+<h4 id="sec4.2.2">4.2.2. Medidas de cumplimiento implementadas</h4>
+<p>Borrado definitivo de cuenta en 'Ajustes' purga el ID UUID del cliente directamente desde el proveedor (Supabase API).</p>
+
+<h3 id="sec4.3">4.3. Marco legal de servicios digitales (LSSI-CE)</h3>
+<h4 id="sec4.3.1">4.3.1. Avisos legales y condiciones de uso</h4>
+<p>Inclusiones documentadas y disclaimer visible en la pantalla 'Información de Aplicación' indicando el origen académico.</p>
+
+<h4 id="sec4.3.2">4.3.2. Propiedad intelectual e industrial</h4>
+<p>Derechos de autor aplicados al framework final. Fotografías proveídas por Wikipedia o iNaturalist bajo licencias tipo Creative Commons BY-SA o equivalente.</p>
+
+<h3 id="sec4.4">4.4. Responsabilidad y Ciberseguros</h3>
+<h4 id="sec4.4.1">4.4.1. Justificación de la Cobertura</h4>
+<p>Una eventual fase startup demandará esquemas RLS estrictos para evitar fugas y seguros RC Tecnológica e infidelidad ante la ley.</p>
+
+<div class="page-break"></div>
+
+<h2 id="sec5">5. Estudio Económico</h2>
+<h3 id="sec5.1">5.1. Costos de Inversión (CAPEX)</h3>
+<h4 id="sec5.1.1">5.1.1. Costes de Arranque (Cash-Flow Negativo Inicial)</h4>
+<p>Estimación de equipos informáticos portátiles, licencias temporales y la licencia de Publicación en Google Play ($25).</p>
+
+<h4 id="sec5.1.2">5.1.2. Valoración del Desarrollo (Activo Intangible)</h4>
+<p>Teniendo en cuenta a los 3 desarrolladores involucrados y asumiendo tarifas iniciales Junior IT, el activo acumulado ronda en un marco ficticio las decenas de horas en Valor de Capital Humano inyectado.</p>
+
+<h3 id="sec5.2">5.2. Costos Operativos (OPEX)</h3>
+<p>Servidores BaaS PaaS gratuitos en su tier de entrada para un arranque suave (0€/mes el primer año para &lt;50k peticiones mensuales). Escalado previsible.</p>
+
+<h3 id="sec5.3">5.3. Modelo de Monetización</h3>
+<p>Gratuito/Open Access para público y docencia (Ej: el instituto). Vías de monetización B2B, patronazgos o publicidad ligera no intrusiva in-app para usuarios base.</p>
+
+<h3 id="sec5.4">5.4. Estados Financieros Proyectados (Año 1)</h3>
+<p><i>(A añadir según la tabla de la plantilla)</i></p>
+
+<h3 id="sec5.5">5.5. Punto de Equilibrio (Break-even)</h3>
+<h4 id="sec5.5.1">5.5.1. Cálculo del Margen de Contribución Unitario</h4>
+<p>Margen alto a partir del volumen base por costes de distribución prácticamente nulos.</p>
+
+<h4 id="sec5.5.2">5.5.2. Usuarios Necesarios para Cubrir Fijos</h4>
+<p>En el tier free se asume volumen necesario cero para equilibrar; a partir del nivel "Pro" Database se requerirán ingresos de micropagos o ads.</p>
+
+<div class="page-break"></div>
+
+<h2 id="sec6">6. Cronograma</h2>
+<h3 id="sec6.1">6.1. Ciclo de Vida del Proyecto</h3>
+<h4 id="sec6.1.1">6.1.1. Planificación</h4>
+<p>Día 1: Reunión general, esbozos y croquis con notas compartidas en Drive y en MarvelApp de prototipado.</p>
+<h4 id="sec6.1.2">6.1.2. Diseño</h4>
+<p>Días 1-2: Front-end inicial de la aplicación, XML básico, paletas y maquetación UI (Sergio, Germán, Carla).</p>
+<h4 id="sec6.1.3">6.1.3. Desarrollo</h4>
+<p>Días 1-5:</p>
+<ul>
+    <li><b>Sergio:</b> Autenticación Login, UI de Ajustes, Funciones de Añadir Aves y Configuración de Borrado SQL de cuenta.</li>
+    <li><b>Germán:</b> Menu Navigation, lógica Drawer, IA nativa integrada por Gemini (Chats y Prompt Engineering), Carrusel inicial con su adaptador, Buscador interactivo y filtros, y edición y borrado protegido de paneles.</li>
+    <li><b>Carla:</b> Lógica de base de guías de aves de Supabase, interfaces de Lista y Fichas pajareras, implementaciones complejas de Media por API (Audios y API iNaturalist / Wikipedia), Listado de Favoritos y finalmente el Quiz de reto de Aves.</li>
+</ul>
+<h4 id="sec6.1.4">6.1.4. Testing</h4>
+<p>Días 3-5: Unificación. Reparaciones conjuntas sobre IDs omitidos, validación de Supabase (Error PGRST204) debido a variables inconsistentes entre base y app, y estandarización del modo bilingüe inglés-español res-string.</p>
+<h4 id="sec6.1.5">6.1.5. Despliegue</h4>
+<p>Día 5: Combinación del trabajo general, revisión y preparativos.</p>
+<h4 id="sec6.1.6">6.1.6. Mantenimiento</h4>
+<p>Constancia e iteración continua por versiones.</p>
+
+<h3 id="sec6.2">6.2. Planificación Temporal</h3>
+<p>Mapeo temporal progresivo. Crecimiento horizontal de módulos unificados posteriormente (Ej: Chat y Quiz y CRUD).</p>
+
+<div class="page-break"></div>
+
+<h2 id="sec7">7. Conclusiones y Recomendaciones</h2>
+<h3 id="sec7.1">7.1. Conclusión</h3>
+<p>PIOINTO ha trascendido sus objetivos, entregando un producto robusto apoyado en arquitectura BaaS actual mediante Supabase, y brindando capacidades de próxima generación de la IA. El esfuerzo por unificar los proyectos parciales de los desarrolladores fue un éxito rotundo para establecer esta primera versión final.</p>
+
+<h3 id="sec7.2">7.2. Aprendizaje Personal</h3>
+<p>El equipo ha asimilado la interacción entre servicios de terceros RESTful por dependencias complejas de Android (Retrofit), así como los desafíos inherentes a la programación paralela en un mismo core/BaaS y los ajustes en esquemas relacionales para impedir choques.</p>
+
+<h3 id="sec7.3">7.3. Acciones a Futuro (Roadmap)</h3>
+<h4 id="sec7.3.1">7.3.1. Evolución Funcional (Mejoras del Producto)</h4>
+<p>Posibilidades de expansión en el despliegue de mapas por GPS en base a las posiciones enviadas, subida libre de fotos por teléfono habilitando Storage en Supabase.</p>
+<h4 id="sec7.3.2">7.3.2. Expansión Estratégica (Roadmap 2026)</h4>
+<p>Versión refactorizada y lanzamiento formal general a la comunidad de ornitólogos con posibilidad para escuelas.</p>
+
+<div class="page-break"></div>
+
+<h2 id="sec8">8. Manuales del Sistema</h2>
+<h3 id="sec8.1">8.1. Manual para el Desarrollador</h3>
+<p>El código requiere la URL (<code>kgogfcfbkanmibmbaqas.supabase.co</code>) y sus accesos AnonKey. Cada pantalla que requiera control de idioma debe implementar o extender a la clase <code>BaseActivity.java</code> como unificador del ContextWrapper general de la aplicación, evitando heredar directamente de AppCompatActivity para el correcto seteo al vuelo de Strings-en / Strings-es.</p>
+
+<h3 id="sec8.2">8.2. Manual de Usuario</h3>
+<h4 id="sec8.2.1">8.2.1. 1. Inicio de Sesión (Login)</h4>
+<p>Abre la app, navega a Registrar y verifica tu clave. Tu acceso estará garantizado y de manera segura sin exponer la contraseña. Si te registras la app se mantendrá conectada por ti.</p>
+
+<h4 id="sec8.2.2">8.2.2. 2. Guía y Favoritos</h4>
+<p>Pulsa "Aves" en la hamburguesa izquierda de navegación. Entra a una ficha descriptiva donde disfrutarás de audios nativos y galerías en vivo. Pulsa "Estrella" para Favoritizar un ave permanentemente y poder verla por accesos rápidos desde la sección principal. Tienes un filtro interactivo en las listas (funnel symbol).</p>
+
+<h4 id="sec8.2.3">8.2.3. 3. Añadir o Editar Pájaro</h4>
+<p>Rellena información taxonómica en la sección pertinente de "Añadir Pájaros" desde el menú Dashboard principal.</p>
+
+<h4 id="sec8.2.4">8.2.4. 4. Chat IA y Quiz</h4>
+<p>Desde la Navegación (Ayuda, o Panel principal y Menú desplegable) pregúntale a Gemini cuestiones biológicas como: ¿El ave X hace migraciones? Recibirás respuesta directa como si fuesen mensajes.</p>
+
+<div class="page-break"></div>
+
+<h2 id="sec9">9. Webgrafía</h2>
+<ul>
+    <li>Documentación inicial API Gemini / IA Google 2024: <a href="https://ai.google.dev/gemini-api/docs?hl=es-419#java">Enlace documentación</a> / Vídeo Implementador: <a href="https://www.youtube.com/watch?v=L4wcFD6iBH4">Link Video</a></li>
+    <li>Creación y personalización de Drawer Toolbars (Hamburger Navigation Menu): <a href="https://www.youtube.com/watch?v=HwYENW0RyY4">Tutorial Dev 1</a>, <a href="https://www.youtube.com/watch?v=m1RV0HPuBWo&amp;t=181s">Tutorial Dev 2</a></li>
+    <li>Scrollable Views para vistas de lectura largas sin recortes: <a href="https://www.youtube.com/watch?v=uzsspLdn58I">Tutorial Android Scroll Views</a></li>
+    <li>Supabase Auth en Android - Sistemas de validación vía correo: <a href="https://www.youtube.com/watch?v=JSFisEN_TO0">Tutorial Auth Login Android</a></li>
+    <li>Sistemas Wikipedia e iNaturalist (Taxonomía, Galerías libres bajo licencias CC).</li>
+    <li>Elaboración bajo entorno Antigravity Workspace / Agent Assistants.</li>
+</ul>
+
+</body>
+</html>
